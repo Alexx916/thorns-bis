@@ -584,28 +584,15 @@
       "kind": "bis"
      }
     ]
-   },
-   {
-    "title": "Later: Libram of Invocation",
-    "zone": "Unconfirmed",
-    "type": "craft",
-    "do": "This is an Enchanting 210 BoP craft, so a Blacksmith can't make or buy it. Skip it unless you level Enchanting. The formula vendor and its rep faction are unconfirmed.",
-    "items": [
-     {
-      "name": "Libram of Invocation",
-      "slot": "Relic",
-      "kind": "bis"
-     }
-    ]
    }
   ],
   "notes": [
-   "Level gates (Wowhead tooltips): Horned Viking Helmet, Carapace of Tuten'kash, Warder's Boots and Libram of Invocation all require level 40, so they're only usable at the very end of the bracket. Hand of Righteousness and the Aegis require 39.",
+   "Level gates (Wowhead tooltips): Horned Viking Helmet, Carapace of Tuten'kash and Warder's Boots all require level 40, so they're only usable at the very end of the bracket. Hand of Righteousness and the Aegis require 39.",
    "Warder's Boots: BS 200 is confirmed by third-party databases (the sheet says ~200), but where the plans come from is still unknown. Mats are unverified.",
    "Iron Shield Spike: the classic recipe was 8 Iron Bar + 4 Heavy Grinding Stone. This is unverified for Forever.",
    "Unconfirmed: the Necklace Recovery quest givers and where they start, and the location and entrance of The Drowned City.",
-   "Libram of Invocation is effectively unobtainable for a Blacksmith-only character, because it is a BoP Enchanting craft.",
-   "Herod's Shoulder, Warder's Gauntlet and Risen Sentry's Links are mail. Swap to plate when the level-45 Warder's pieces come online."
+   "Herod's Shoulder, Warder's Gauntlet and Risen Sentry's Links are mail. Swap to plate when the level-45 Warder's pieces come online.",
+   "No relic: Libram of Invocation is a BoP Enchanting 210 craft, so it was dropped from the sheet."
   ]
  },
  "45": {
@@ -824,7 +811,7 @@
  },
  "55": {
   "level": 55,
-  "summary": "Run Blackrock Depths at 54 for Naglering, then Dire Maul East for chest and ring, then Upper Blackrock Spire at 55 for the Hammer and Gyth's Skull. The weapon comes last because it requires level 55. Blackmaw Hold and Stratholme alternatives are optional extras at the end.",
+  "summary": "Run Blackrock Depths at 54 for Naglering, then Dire Maul East for chest and ring, then Upper Blackrock Spire at 55 for the Hammer and Gyth's Skull. The weapon comes last because it requires level 55. Finish in Blackmaw Hold for the Bloodfur Bulwark shield; Stratholme is an optional extra.",
   "steps": [
    {
     "title": "Blackrock Depths: Golem Lord Argelmach",
@@ -904,16 +891,24 @@
     ]
    },
    {
-    "title": "Later: Blackmaw Hold and Stratholme extras",
-    "zone": "Blackmaw Hold (Azshara) / Stratholme",
+    "title": "Blackmaw Hold: Withermaw",
+    "zone": "Blackmaw Hold (north Azshara)",
     "type": "dungeon",
-    "do": "Optional: Withermaw in Blackmaw Hold (north Azshara, behind the furbolg gate, level 55-60) drops Bloodfur Bulwark (req 55, ~27%). It needs its own new shield spike, because a spike can't be moved from Putridus Wall. Optional: Skul, a rare in Stratholme, drops Skul's Cold Embrace. Skip it if you already have the Energized Chestplate.",
+    "do": "At 55, run Blackmaw Hold for Withermaw, who drops Bloodfur Bulwark (req 55, about 27%). It beats Putridus Wall on armor, block, block value and +2% block chance, and more blocks means more spike damage. Put a new shield spike on it; spikes can't be moved from Putridus Wall.",
     "items": [
      {
-      "name": "Bloodfur Bulwark",
+      "name": "Bloodfur Bulwark + spike",
       "slot": "Off hand",
-      "kind": "alt"
-     },
+      "kind": "bis"
+     }
+    ]
+   },
+   {
+    "title": "Optional: Stratholme, Skul",
+    "zone": "Stratholme",
+    "type": "dungeon",
+    "do": "Optional: Skul, a rare in Stratholme, drops Skul's Cold Embrace. Skip it if you already have the Energized Chestplate.",
+    "items": [
      {
       "name": "Skul's Cold Embrace",
       "slot": "Chest",
@@ -927,8 +922,7 @@
    "Unconfirmed: whether UBRS in Forever still needs the Seal of Ascension key, as it did in Classic. Check before you form a group.",
    "Wowhead confirms Naglering still has 'When struck in combat inflicts 3 Arcane damage to the attacker', which is a thorns effect.",
    "Every source and level requirement in the sheet matched its Wowhead Forever tooltip. No contradictions found.",
-   "Unconfirmed: Blackmaw Hold's boss order and Withermaw's location inside it. The entrance is from web guides, not Wowhead.",
-   "Bloodfur Bulwark (2057 armor, 38 block, +15 block value) has better base stats than Putridus Wall, but it's listed as the alternative. Compare them in-game before you spend a spike on it."
+   "Unconfirmed: Blackmaw Hold's boss order and Withermaw's location inside it. The entrance is from web guides, not Wowhead."
   ]
  },
  "60": {
@@ -998,7 +992,7 @@
     "title": "UBRS: General Drakkisath",
     "zone": "Upper Blackrock Spire",
     "type": "dungeon",
-    "do": "At 58+, clear to General Drakkisath for Draconian Deflector (BoP, requires 58, about 21% drop, so plan on repeat runs). Put a new shield spike on it; spikes cannot be moved from your old Putridus Wall.",
+    "do": "At 58+, clear to General Drakkisath for Draconian Deflector (BoP, requires 58, about 21% drop, so plan on repeat runs). Put a new shield spike on it; spikes cannot be moved from your old shield.",
     "items": [
      {
       "name": "Draconian Deflector + spike",
