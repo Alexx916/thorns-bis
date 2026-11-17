@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *' # daily: pick up new items added to the sheet
 
 permissions:
   contents: read
@@ -24,6 +26,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run items
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

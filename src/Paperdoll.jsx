@@ -1,15 +1,15 @@
 import Slot from './Slot.jsx';
 import { LEFT_SLOTS, RIGHT_SLOTS, BOTTOM_SLOTS } from './config.js';
 
-export default function Paperdoll({ level, items, prevItems, selected, onSelect }) {
+export default function Paperdoll({ level, views, prevViews, selected, onSelect, onToggleAlt, onToggleGot }) {
   const render = (slot, align) => {
-    const item = items?.[slot];
-    if (slot === 'Relic' && !item) return null;
-    const prev = prevItems?.[slot];
-    const changed = Boolean(prevItems && item?.bis && item.bis !== prev?.bis);
+    const view = views[slot];
+    if (!view) return null;
+    const prev = prevViews?.[slot];
+    const changed = Boolean(prevViews && view.name && view.name !== prev?.name);
     return (
-      <Slot key={slot} slot={slot} item={item} changed={changed}
-        selected={selected === slot} onSelect={onSelect} align={align} />
+      <Slot key={slot} slot={slot} view={view} changed={changed} selected={selected === slot}
+        onSelect={onSelect} onToggleAlt={onToggleAlt} onToggleGot={onToggleGot} align={align} />
     );
   };
 

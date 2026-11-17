@@ -1,0 +1,602 @@
+{
+ "Aegis of the Scarlet Commander": {
+  "id": 7726,
+  "icon": "inv_shield_05",
+  "quality": 3
+ },
+ "Arbiter's Blade": {
+  "id": 11784,
+  "icon": "inv_sword_23",
+  "quality": 3
+ },
+ "Arena Master": {
+  "id": 18706,
+  "icon": "inv_misc_armorkit_14",
+  "quality": 2
+ },
+ "Atrophic Girdle": {
+  "id": 271201,
+  "icon": "inv_belt_21",
+  "quality": 3
+ },
+ "Avenguard Helm": {
+  "id": 10749,
+  "icon": "inv_helmet_22",
+  "quality": 3
+ },
+ "Bandsaw Wristbands": {
+  "id": 273293,
+  "icon": "inv_bracer_03",
+  "quality": 3
+ },
+ "Berserker Shackles": {
+  "id": 274600,
+  "icon": "inv_bracer_15",
+  "quality": 3
+ },
+ "Blade of Silverlaine": {
+  "id": 273637,
+  "icon": "inv_sword_05",
+  "quality": 3
+ },
+ "Blood Ritual Ring": {
+  "id": 274642,
+  "icon": "inv_jewelry_ring_25",
+  "quality": 3
+ },
+ "Bloodfur Bulwark": {
+  "id": 280063,
+  "icon": "inv_shield_13",
+  "quality": 3
+ },
+ "Boar Champion's Belt": {
+  "id": 10768,
+  "icon": "inv_belt_11",
+  "quality": 3
+ },
+ "Bronzed Shoulderguards": {
+  "id": 270024,
+  "icon": "inv_shoulder_27",
+  "quality": 2
+ },
+ "Carapace of Anub'shiah": {
+  "id": 11678,
+  "icon": "inv_chest_plate08",
+  "quality": 3
+ },
+ "Carapace of Tuten'kash": {
+  "id": 10775,
+  "icon": "inv_chest_plate08",
+  "quality": 3
+ },
+ "Crusader's Boots": {
+  "id": 250507,
+  "icon": "inv_boots_chain_05",
+  "quality": 3
+ },
+ "Crusader's Chain Belt": {
+  "id": 250517,
+  "icon": "inv_belt_22",
+  "quality": 3
+ },
+ "Crusader's Chain Helm": {
+  "id": 250502,
+  "icon": "inv_helmet_37",
+  "quality": 3
+ },
+ "Crusader's Chain Leggings": {
+  "id": 250497,
+  "icon": "inv_pants_mail_13",
+  "quality": 3
+ },
+ "Crusader's Chain Shirt": {
+  "id": 250492,
+  "icon": "inv_chest_chain_09",
+  "quality": 3
+ },
+ "Crusader's Gloves": {
+  "id": 250512,
+  "icon": "inv_gauntlets_12",
+  "quality": 3
+ },
+ "Crusader's Silvered Chain Helm": {
+  "id": 250532,
+  "icon": "inv_helmet_37",
+  "quality": 3
+ },
+ "Crusader's Silvered Chain Leggings": {
+  "id": 250527,
+  "icon": "inv_pants_mail_13",
+  "quality": 3
+ },
+ "Crusader's Silvered Chain Shirt": {
+  "id": 250522,
+  "icon": "inv_chest_chain_09",
+  "quality": 3
+ },
+ "Cursed Murloc Eye": {
+  "id": 273840,
+  "icon": "spell_shadow_evileye",
+  "quality": 3
+ },
+ "Dark Ritual Leggings": {
+  "id": 270031,
+  "icon": "inv_pants_02",
+  "quality": 3
+ },
+ "Defender Leggings of Magic": {
+  "id": 6578,
+  "icon": "inv_pants_03",
+  "quality": 2
+ },
+ "Defender's Grip Stabilizer": {
+  "id": 272440,
+  "icon": "ui_profession_engineering",
+  "quality": 3
+ },
+ "Depleted Thorium Sabatons": {
+  "id": 279263,
+  "icon": "inv_boots_plate_02",
+  "quality": 4
+ },
+ "Draconian Deflector": {
+  "id": 12602,
+  "icon": "inv_shield_20",
+  "quality": 3
+ },
+ "Dragonclaw Ring": {
+  "id": 10710,
+  "icon": "inv_jewelry_ring_04",
+  "quality": 2
+ },
+ "Dune Hacker": {
+  "id": 274658,
+  "icon": "inv_axe_13",
+  "quality": 3
+ },
+ "Elemental Rockridge Leggings": {
+  "id": 17711,
+  "icon": "inv_pants_04",
+  "quality": 3
+ },
+ "Emberscale Cape": {
+  "id": 11311,
+  "icon": "inv_misc_cape_08",
+  "quality": 3
+ },
+ "Energized Chestplate": {
+  "id": 18312,
+  "icon": "inv_chest_plate11",
+  "quality": 3
+ },
+ "Enriched Thorium Breastplate": {
+  "id": 250595,
+  "icon": "inv_chest_plate11",
+  "quality": 3
+ },
+ "Enriched Thorium Helm": {
+  "id": 250597,
+  "icon": "inv_helmet_10",
+  "quality": 3
+ },
+ "Enriched Thorium Leggings": {
+  "id": 250596,
+  "icon": "inv_pants_plate_10",
+  "quality": 3
+ },
+ "Evergreen Shield": {
+  "id": 279262,
+  "icon": "inv_shield_1h_raidhyjalc60_d_01",
+  "quality": 4
+ },
+ "Fingerbreaker Stamp": {
+  "id": 276743,
+  "icon": "inv_misc_armorkit_02",
+  "quality": 3
+ },
+ "First Mate Band": {
+  "id": 284715,
+  "icon": "inv_jewelry_ring_01",
+  "quality": 3
+ },
+ "Force of Will": {
+  "id": 11810,
+  "icon": "inv_jewelry_amulet_01",
+  "quality": 3
+ },
+ "Foreman's Head Protector": {
+  "id": 22223,
+  "icon": "inv_helmet_20",
+  "quality": 3
+ },
+ "Frostwolf Insignia Rank 6": {
+  "id": 17909,
+  "icon": "inv_jewelry_frostwolftrinket_05",
+  "quality": 4
+ },
+ "Girdle of Extracted Answers": {
+  "id": 276742,
+  "icon": "inv_belt_12",
+  "quality": 3
+ },
+ "Gloomshroud Armor": {
+  "id": 1489,
+  "icon": "inv_chest_leather_08",
+  "quality": 3
+ },
+ "Golem Skull Helm": {
+  "id": 11746,
+  "icon": "inv_helmet_23",
+  "quality": 3
+ },
+ "Graverot Cape": {
+  "id": 11677,
+  "icon": "inv_misc_cape_19",
+  "quality": 3
+ },
+ "Grip of Fear": {
+  "id": 271208,
+  "icon": "inv_gauntlets_04",
+  "quality": 3
+ },
+ "Guardian Talisman": {
+  "id": 1490,
+  "icon": "inv_jewelry_talisman_05",
+  "quality": 2
+ },
+ "Gyth's Skull": {
+  "id": 12952,
+  "icon": "inv_helmet_23",
+  "quality": 3
+ },
+ "Hand of Edward the Odd": {
+  "id": 2243,
+  "icon": "inv_mace_14",
+  "quality": 4
+ },
+ "Hand of Righteousness": {
+  "id": 7721,
+  "icon": "inv_hammer_02",
+  "quality": 3
+ },
+ "Hard Gold Boots": {
+  "id": 250534,
+  "icon": "inv_boots_chain_03",
+  "quality": 2
+ },
+ "Heart of Agamaggan": {
+  "id": 6694,
+  "icon": "inv_shield_02",
+  "quality": 3
+ },
+ "Heart of the Primeval": {
+  "id": 274615,
+  "icon": "inv_elemental_primal_water",
+  "quality": 3
+ },
+ "Herod's Shoulder": {
+  "id": 7718,
+  "icon": "inv_shoulder_01",
+  "quality": 3
+ },
+ "Horn of Ve'han": {
+  "id": 275736,
+  "icon": "inv_misc_horn_03",
+  "quality": 3
+ },
+ "Horned Viking Helmet": {
+  "id": 9394,
+  "icon": "inv_helmet_25",
+  "quality": 3
+ },
+ "Jarkal's Enhancing Necklace": {
+  "id": 7888,
+  "icon": "inv_jewelry_necklace_02",
+  "quality": 3
+ },
+ "Justicar's Belt": {
+  "id": 250560,
+  "icon": "inv_belt_13",
+  "quality": 3
+ },
+ "Justicar's Boots": {
+  "id": 250550,
+  "icon": "inv_boots_plate_05",
+  "quality": 3
+ },
+ "Justicar's Gauntlet": {
+  "id": 250570,
+  "icon": "inv_gauntlets_30",
+  "quality": 3
+ },
+ "Knucklebone Ring": {
+  "id": 274614,
+  "icon": "inv_misc_bone_05",
+  "quality": 3
+ },
+ "Libram of Invocation": {
+  "id": 249442,
+  "icon": "inv_relics_libramofhope",
+  "quality": 3
+ },
+ "Libram of Law": {
+  "id": 272435,
+  "icon": "inv_misc_book_04",
+  "quality": 3
+ },
+ "Mark of Captivity": {
+  "id": 287024,
+  "icon": "inv_jewelry_talisman_05",
+  "quality": 3
+ },
+ "Mastersmith's Hammer": {
+  "id": 18048,
+  "icon": "inv_hammer_06",
+  "quality": 3
+ },
+ "Moss Cinch": {
+  "id": 6911,
+  "icon": "inv_belt_25",
+  "quality": 3
+ },
+ "Naglering": {
+  "id": 11669,
+  "icon": "inv_jewelry_ring_05",
+  "quality": 3
+ },
+ "Ouroboros Ring": {
+  "id": 260216,
+  "icon": "inv_jewelry_ring_40",
+  "quality": 3
+ },
+ "Putridus Wall": {
+  "id": 275864,
+  "icon": "inv_shield_13",
+  "quality": 3
+ },
+ "Redoubt Cloak": {
+  "id": 18495,
+  "icon": "inv_misc_cape_21",
+  "quality": 3
+ },
+ "Reinforced Muck Protectors": {
+  "id": 279902,
+  "icon": "inv_pants_04",
+  "quality": 3
+ },
+ "Reliquary Mantle": {
+  "id": 273028,
+  "icon": "inv_shoulder_27",
+  "quality": 3
+ },
+ "Ring of Awareness": {
+  "id": 272409,
+  "icon": "inv_jewelry_ring_01",
+  "quality": 3
+ },
+ "Ring of Demonic Potency": {
+  "id": 18315,
+  "icon": "inv_jewelry_ring_28",
+  "quality": 3
+ },
+ "Ring of Power Regulation": {
+  "id": 273030,
+  "icon": "inv_jewelry_ring_28",
+  "quality": 3
+ },
+ "Risen Sentry's Links": {
+  "id": 287002,
+  "icon": "inv_pants_03",
+  "quality": 3
+ },
+ "Rough Bronze Shoulders": {
+  "id": 3480,
+  "icon": "inv_shoulder_05",
+  "quality": 2
+ },
+ "Sageblade": {
+  "id": 22383,
+  "icon": "inv_sword_51",
+  "quality": 4
+ },
+ "Scarlet Wristguards": {
+  "id": 10333,
+  "icon": "inv_bracer_03",
+  "quality": 3
+ },
+ "Scepter of the Abandoned": {
+  "id": 271216,
+  "icon": "inv_misc_bone_dwarfskull_01",
+  "quality": 3
+ },
+ "Scholarly Pendant": {
+  "id": 277203,
+  "icon": "inv_jewelry_necklace_11",
+  "quality": 2
+ },
+ "Seal of Sylvanas": {
+  "id": 6414,
+  "icon": "inv_jewelry_ring_15",
+  "quality": 3
+ },
+ "Seedcloud Buckler": {
+  "id": 6630,
+  "icon": "inv_shield_10",
+  "quality": 3
+ },
+ "Shining Mithril Breastplate": {
+  "id": 250540,
+  "icon": "inv_chest_plate01",
+  "quality": 2
+ },
+ "Shining Mithril Pauldrons": {
+  "id": 250541,
+  "icon": "inv_shoulder_29",
+  "quality": 2
+ },
+ "Silky Spider Cape": {
+  "id": 10776,
+  "icon": "inv_misc_cape_17",
+  "quality": 3
+ },
+ "Skul's Cold Embrace": {
+  "id": 13394,
+  "icon": "inv_chest_chain_15",
+  "quality": 3
+ },
+ "Skullbreaker": {
+  "id": 17039,
+  "icon": "inv_misc_bone_dwarfskull_01",
+  "quality": 2
+ },
+ "Slain Baron's Signet": {
+  "id": 279867,
+  "icon": "inv_jewelry_ring_19",
+  "quality": 2
+ },
+ "Snake Eye Kaleidoscope": {
+  "id": 273088,
+  "icon": "inv_misc_eye_01",
+  "quality": 3
+ },
+ "Snake Hoop": {
+  "id": 6750,
+  "icon": "inv_jewelry_ring_06",
+  "quality": 2
+ },
+ "Spare Part Bindings": {
+  "id": 279875,
+  "icon": "inv_bracer_07",
+  "quality": 2
+ },
+ "Spaulders of Valor": {
+  "id": 16733,
+  "icon": "inv_shoulder_30",
+  "quality": 3
+ },
+ "Spiked Shell Band": {
+  "id": 273839,
+  "icon": "inv_jewelry_ring_02",
+  "quality": 3
+ },
+ "Sporid Cape": {
+  "id": 6629,
+  "icon": "inv_misc_cape_17",
+  "quality": 3
+ },
+ "Sterling Silver Shoulders": {
+  "id": 250486,
+  "icon": "inv_shoulder_09",
+  "quality": 2
+ },
+ "Stockade Pauldrons": {
+  "id": 14552,
+  "icon": "inv_shoulder_20",
+  "quality": 4
+ },
+ "Strange Copper Boots": {
+  "id": 250621,
+  "icon": "inv_boots_plate_01",
+  "quality": 3
+ },
+ "Stygian Bone Amulet": {
+  "id": 6695,
+  "icon": "inv_jewelry_necklace_04",
+  "quality": 3
+ },
+ "The Emperor's New Cape": {
+  "id": 11930,
+  "icon": "inv_misc_cape_20",
+  "quality": 3
+ },
+ "The Green Tower": {
+  "id": 1204,
+  "icon": "inv_shield_06",
+  "quality": 4
+ },
+ "Thorium Belt": {
+  "id": 12406,
+  "icon": "inv_belt_30",
+  "quality": 2
+ },
+ "Thornweaver Drape": {
+  "id": 274149,
+  "icon": "inv_misc_cape_11",
+  "quality": 3
+ },
+ "Thornwoven Shield": {
+  "id": 276889,
+  "icon": "inv_shield_14",
+  "quality": 2
+ },
+ "Thrall's Resolve": {
+  "id": 12544,
+  "icon": "inv_jewelry_ring_05",
+  "quality": 3
+ },
+ "Undead Knight's Bracers": {
+  "id": 251965,
+  "icon": "inv_bracer_16",
+  "quality": 2
+ },
+ "Undying Headdress": {
+  "id": 274644,
+  "icon": "inv_helmet_17",
+  "quality": 3
+ },
+ "Vile Protector": {
+  "id": 7747,
+  "icon": "inv_shield_02",
+  "quality": 3
+ },
+ "Warder's Boots": {
+  "id": 250548,
+  "icon": "inv_boots_plate_19v1",
+  "quality": 3
+ },
+ "Warder's Gauntlet": {
+  "id": 250568,
+  "icon": "inv_gauntlets_50",
+  "quality": 3
+ },
+ "Warder's Gloves": {
+  "id": 250553,
+  "icon": "inv_gauntlets_50",
+  "quality": 3
+ },
+ "Warder's Pauldrons": {
+  "id": 250578,
+  "icon": "inv_shoulder_03",
+  "quality": 3
+ },
+ "Warder's Sabatons": {
+  "id": 250563,
+  "icon": "inv_boots_plate_19v1",
+  "quality": 3
+ },
+ "Warder's Waistguard": {
+  "id": 250573,
+  "icon": "inv_belt_29",
+  "quality": 3
+ },
+ "Warder's Wristguards": {
+  "id": 250583,
+  "icon": "inv_bracer_14",
+  "quality": 3
+ },
+ "Wingblade": {
+  "id": 6504,
+  "icon": "inv_sword_16",
+  "quality": 3
+ },
+ "Worn Turtle Shell Shield": {
+  "id": 6447,
+  "icon": "inv_shield_21",
+  "quality": 3
+ },
+ "Zarla's Snack Pouch": {
+  "id": 276744,
+  "icon": "inv_misc_bag_06",
+  "quality": 3
+ }
+}
