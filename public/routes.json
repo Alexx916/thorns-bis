@@ -298,7 +298,7 @@
     "title": "Level Blacksmithing toward 150",
     "zone": "Orgrimmar / Auction House",
     "type": "craft",
-    "do": "While questing from 25 to 28, keep levelling Blacksmithing with Iron Bars so you hit 150 by level 30. You need 150 to learn Justicar's Belt and to apply an Iron Shield Spike. Buy Plans: Iron Shield Spike on the AH when you see them.",
+    "do": "While questing from 25 to 28, keep levelling Blacksmithing with Iron Bars so you hit 150 by level 30. You need 150 to apply an Iron Shield Spike (and for the optional Justicar's Belt). Buy Plans: Iron Shield Spike on the AH when you see them.",
     "items": []
    },
    {
@@ -338,15 +338,15 @@
     ]
    },
    {
-    "title": "Craft session: Justicar's Belt and new spike",
+    "title": "Craft session: new shield spike",
     "zone": "Orgrimmar",
     "type": "craft",
-    "do": "At BS 150, learn Justicar's Belt from a Horde Blacksmithing trainer and craft it (BoP, requires level 30). Craft an Iron Shield Spike from Iron Bars and grinding stones and put it on the Heart of Agamaggan. Spikes can't be moved, so the old Seedcloud spike is lost. Optional: Hard Gold Boots (BS 150, BoE, requires 30) upgrade Crusader's Boots on armor and Strength, if you have the plans and the gold.",
+    "do": "Craft an Iron Shield Spike from Iron Bars and grinding stones and put it on the Heart of Agamaggan. Spikes can't be moved, so the old Seedcloud spike is lost. Keep Moss Cinch on your waist. Optional: if a trainer teaches Justicar's Belt (BoP plans, source unknown), craft it at BS 150. Optional: Hard Gold Boots (BS 150, BoE, requires 30) upgrade Crusader's Boots on armor and Strength, if you have the plans and the gold.",
     "items": [
      {
       "name": "Justicar's Belt",
       "slot": "Waist",
-      "kind": "bis"
+      "kind": "alt"
      },
      {
       "name": "Hard Gold Boots",
@@ -371,8 +371,8 @@
   ],
   "notes": [
    "The Main hand is unchanged (Blade of Silverlaine, carried over), so there's no weapon to get first.",
-   "Heart of Agamaggan and Justicar's Belt both require level 30. Expect to finish this bracket's shield and belt right at 30.",
-   "Justicar's Belt: warcraft.wiki.gg lists it as BS 150, learned from a trainer. Its reagents and the exact trainer NPC are unconfirmed.",
+   "Heart of Agamaggan requires level 30, so expect to finish this bracket's shield right at 30.",
+   "Justicar's Belt (optional): warcraft.wiki.gg says a trainer teaches it at BS 150, but Wowhead lists BoP plans with no known source. That's why Moss Cinch is the planned belt.",
    "Plans: Iron Shield Spike: Metaforge lists them as a chest drop in Arathi Highlands and Alterac Mountains, and gives the reagents as Iron Bar plus Coarse Grinding Stone. Both are unconfirmed. Applying the spike needs BS 150, per the Wowhead tooltip.",
    "Excavation Site: Wetlands: guides disagree on its level range (24-33). There may be a Horde quest from Relic Guardian's Titan Relic ('Elder Knowledge', unconfirmed).",
    "Trinket 2 has no item in the sheet. The Seedcloud Buckler alt is flagged as new only because its name differs ('+ spike'); it was BiS in earlier brackets, so it's left out."
@@ -474,7 +474,7 @@
     "title": "Scarlet Monastery: Armory and Cathedral",
     "zone": "Scarlet Monastery (Tirisfal Glades)",
     "type": "dungeon",
-    "do": "Fly to the Undercity and ride to the Monastery at 38-39. Run Armory for Herod, then Cathedral for Mograine and Whitemane; repeat Cathedral until the mace drops (equips at 39). The Aegis needs a new shield spike, made in the craft session.",
+    "do": "Fly to the Undercity and ride to the Monastery at 38-39. Run Armory for Herod, then Cathedral for Mograine and Whitemane; repeat Cathedral until the mace drops (equips at 39). The Aegis needs a new shield spike, made in the craft session. Scarlet Boots (BoE, req 30, +12 Sta) are your feet: check the Undercity AH first, or watch for them from Scarlet trash while you're here. With Scarlet Wristguards they make a 2-piece Scarlet set.",
     "items": [
      {
       "name": "Hand of Righteousness",
@@ -489,6 +489,11 @@
      {
       "name": "Aegis of the Scarlet Commander + spike",
       "slot": "Off hand",
+      "kind": "bis"
+     },
+     {
+      "name": "Scarlet Boots",
+      "slot": "Feet",
       "kind": "bis"
      }
     ]
@@ -520,7 +525,7 @@
     "title": "Crossroads craft session",
     "zone": "The Barrens (Crossroads)",
     "type": "craft",
-    "do": "Buy Plans: Warder's Gauntlet from Gor'mak outside the Crossroads west gate (60 MF, DSL Friendly; BS 175). Craft a fresh Iron Shield Spike for the Aegis, since the old one stays on Vile Protector. Warder's Boots need BS 200 and level 40, and the plans source is unconfirmed. Optional: Shining Mithril pieces (BS 195, BoE) are skill-ups on the way to 200, and Justicar's Boots (BS 200) can cover feet if you can't find the Warder's plans.",
+    "do": "Buy Plans: Warder's Gauntlet from Gor'mak outside the Crossroads west gate (60 MF, DSL Friendly; BS 175). Craft a fresh Iron Shield Spike for the Aegis, since the old one stays on Vile Protector. Optional: Warder's Boots (BS 200, req 40) only if their BoP plans drop for you; the source is unknown.",
     "items": [
      {
       "name": "Warder's Gauntlet",
@@ -530,11 +535,6 @@
      {
       "name": "Warder's Boots",
       "slot": "Feet",
-      "kind": "bis"
-     },
-     {
-      "name": "Justicar's Boots",
-      "slot": "Feet",
       "kind": "alt"
      }
     ]
@@ -543,7 +543,7 @@
     "title": "Razorfen Downs: Tuten'kash",
     "zone": "Razorfen Downs (Southern Barrens)",
     "type": "dungeon",
-    "do": "Close to the Crossroads, so run this straight after the craft session. Tuten'kash drops both the cape (level 37) and the chest (level 40). Optional: take Extinguishing the Idol inside for Dragonclaw Ring, and kill Ragglesnout (rare spawn) for Boar Champion's Belt if he is up.",
+    "do": "Close to the Crossroads, so run this straight after the craft session. Tuten'kash drops both the cape (level 37) and the chest (level 40). Optional: take Extinguishing the Idol inside for Dragonclaw Ring.",
     "items": [
      {
       "name": "Silky Spider Cape",
@@ -558,11 +558,6 @@
      {
       "name": "Dragonclaw Ring",
       "slot": "Finger 1",
-      "kind": "alt"
-     },
-     {
-      "name": "Boar Champion's Belt",
-      "slot": "Waist",
       "kind": "alt"
      }
     ]
@@ -587,8 +582,8 @@
    }
   ],
   "notes": [
-   "Level gates (Wowhead tooltips): Horned Viking Helmet, Carapace of Tuten'kash and Warder's Boots all require level 40, so they're only usable at the very end of the bracket. Hand of Righteousness and the Aegis require 39.",
-   "Warder's Boots: BS 200 is confirmed by third-party databases (the sheet says ~200), but where the plans come from is still unknown. Mats are unverified.",
+   "Level gates (Wowhead tooltips): Horned Viking Helmet and Carapace of Tuten'kash require level 40, so they're only usable at the very end of the bracket. Hand of Righteousness and the Aegis require 39.",
+   "Warder's Boots (optional): BoP plans with no known source, so Scarlet Boots are the planned feet. Scarlet Boots' Forever drop source is unconfirmed; they're BoE, so use the AH.",
    "Iron Shield Spike: the classic recipe was 8 Iron Bar + 4 Heavy Grinding Stone. This is unverified for Forever.",
    "Unconfirmed: the Necklace Recovery quest givers and where they start, and the location and entrance of The Drowned City.",
    "Herod's Shoulder, Warder's Gauntlet and Risen Sentry's Links are mail. Swap to plate when the level-45 Warder's pieces come online.",
@@ -780,7 +775,7 @@
     "title": "Craft session: Warder's set at Gor'mak",
     "zone": "The Barrens (Crossroads west gate)",
     "type": "craft",
-    "do": "With 90 MF and DSL Honored, buy Plans: Warder's Waistguard and Plans: Warder's Sabatons from Gor'mak. Craft the Sabatons (req 47) first, then the Waistguard at BS 250 (req 50). Warder's Gloves (BS 250, req 50) needs plans whose drop source is unconfirmed, so craft the gloves whenever you find them. Mats are unconfirmed, so check the plan tooltips before you farm.",
+    "do": "With 90 MF and DSL Honored, buy Plans: Warder's Waistguard and Plans: Warder's Sabatons from Gor'mak. Craft the Sabatons (req 47) first, then the Waistguard at BS 250 (req 50). Keep Warder's Gauntlet on your hands. Optional: Warder's Gloves (BS 250, req 50) only if their BoP plans drop for you; the source is unknown. Mats are unconfirmed, so check the plan tooltips before you farm.",
     "items": [
      {
       "name": "Warder's Sabatons",
@@ -795,16 +790,16 @@
      {
       "name": "Warder's Gloves",
       "slot": "Hands",
-      "kind": "bis"
+      "kind": "alt"
      }
     ]
    }
   ],
   "notes": [
-   "Wowhead tooltips list Graverot Cape, Carapace of Anub'shiah, Warder's Gloves, Warder's Waistguard and Foreman's Head Protector as req 50, so you can only equip them at the end of the bracket.",
+   "Wowhead tooltips list Graverot Cape, Carapace of Anub'shiah, Warder's Waistguard and Foreman's Head Protector as req 50, so you can only equip them at the end of the bracket.",
    "Anub'shiah is a random Ring of Law challenger, so the cape and chest may take several BRD runs.",
    "Mark of Captivity (BoE, req 47): no Wowhead drop source is listed. If it doesn't drop in Alcaz Prison, buy it on the AH.",
-   "Plans: Warder's Gloves: Metaforge lists the plan at BS 250, but no source for the plan was found. If you can't find them, keep Warder's Gauntlet.",
+   "Warder's Gloves (optional): BoP plans at BS 250 with no known source, so Warder's Gauntlet is the planned glove.",
    "Sheet says Alcaz Prison for Girdle of Extracted Answers and Zarla's Snack Pouch. Wowhead names the bosses: The Questioner and Blazeroar.",
    "The Forever quest giver for The Temple of Atal'Hakkar is unconfirmed. Fel'Zerul in Stonard is the Classic giver."
   ]

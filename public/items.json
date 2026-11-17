@@ -44,11 +44,6 @@
   "icon": "inv_shield_13",
   "quality": 3
  },
- "Boar Champion's Belt": {
-  "id": 10768,
-  "icon": "inv_belt_11",
-  "quality": 3
- },
  "Bronzed Shoulderguards": {
   "id": 270024,
   "icon": "inv_shoulder_27",
@@ -294,11 +289,6 @@
   "icon": "inv_belt_13",
   "quality": 3
  },
- "Justicar's Boots": {
-  "id": 250550,
-  "icon": "inv_boots_plate_05",
-  "quality": 3
- },
  "Justicar's Gauntlet": {
   "id": 250570,
   "icon": "inv_gauntlets_30",
@@ -388,6 +378,11 @@
   "id": 22383,
   "icon": "inv_sword_51",
   "quality": 4
+ },
+ "Scarlet Boots": {
+  "id": 10332,
+  "icon": "inv_boots_02",
+  "quality": 3
  },
  "Scarlet Wristguards": {
   "id": 10333,
