@@ -1,0 +1,122 @@
+:root {
+  --bg: #0e0c0a;
+  --panel: #1a1612;
+  --panel-2: #241e18;
+  --border: #4a3d2c;
+  --gold: #e8c26a;
+  --gold-dim: #a88a4a;
+  --text: #e9e2d0;
+  --muted: #9c917c;
+  --high: #4fb35a;
+  --med: #e0a93a;
+  --low: #d0533d;
+  --changed: #5aa7ff;
+  --thorns: #8ad06a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top, #231c14 0%, var(--bg) 60%) fixed, var(--bg);
+  color: var(--text);
+  font: 14px/1.4 Georgia, 'Times New Roman', serif;
+}
+a { color: var(--gold); }
+.muted { color: var(--muted); }
+.app { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
+header h1 { margin: 0; color: var(--gold); font-size: 28px; letter-spacing: .5px; text-shadow: 0 2px 0 #000; }
+header p { margin: 4px 0 0; }
+
+.slider { margin: 20px 0; padding: 14px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
+.slider input { width: 100%; accent-color: var(--gold); }
+.ticks { display: flex; justify-content: space-between; margin-top: 6px; }
+.ticks button {
+  background: none; border: 1px solid transparent; color: var(--muted); cursor: pointer;
+  font: inherit; padding: 2px 6px; border-radius: 4px;
+}
+.ticks button.active { color: var(--gold); border-color: var(--gold-dim); font-weight: bold; }
+
+.error { background: #3a1610; border: 1px solid var(--low); padding: 12px 14px; border-radius: 6px; }
+.loading { padding: 24px 0; }
+
+.layout { display: grid; grid-template-columns: 1fr 300px; gap: 16px; align-items: start; }
+
+.paperdoll {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr;
+  grid-template-areas: "left fig right" "bottom bottom bottom";
+  gap: 10px;
+  background: linear-gradient(#1d1813, #15110d);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: inset 0 0 40px #000a;
+}
+.col { display: flex; flex-direction: column; gap: 6px; }
+.col.left { grid-area: left; }
+.col.right { grid-area: right; }
+.figure { grid-area: fig; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+.silhouette { width: 100%; max-width: 120px; fill: #2c241b; stroke: #3d3224; stroke-width: 2; }
+.level-badge { color: var(--gold); font-weight: bold; border: 1px solid var(--gold-dim); padding: 4px 10px; border-radius: 999px; background: #0008; }
+.bottom { grid-area: bottom; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px; border-top: 1px solid var(--border); padding-top: 10px; }
+
+.slot {
+  position: relative; display: flex; gap: 8px; align-items: flex-start; text-align: left;
+  width: 100%; min-height: 54px; padding: 6px; cursor: pointer;
+  background: var(--panel-2); color: inherit; font: inherit;
+  border: 1px solid var(--border); border-radius: 6px;
+  transition: border-color .15s, background .15s, box-shadow .3s;
+}
+.slot:hover, .slot.selected { background: #2e261d; border-color: var(--gold-dim); }
+.slot.align-right { flex-direction: row-reverse; text-align: right; }
+.slot .icon {
+  position: relative; flex: 0 0 40px; height: 40px; display: grid; place-items: center;
+  background: linear-gradient(135deg, #3a2f22, #15110c); border: 2px solid #555; border-radius: 4px;
+  color: var(--muted); font: bold 12px/1 system-ui, sans-serif;
+}
+.slot.conf-high .icon { border-color: var(--high); }
+.slot.conf-med .icon { border-color: var(--med); }
+.slot.conf-low .icon { border-color: var(--low); }
+.slot.empty { opacity: .55; }
+.slot.empty .icon { border-style: dashed; border-color: #444; }
+.tick { position: absolute; right: -6px; bottom: -6px; background: var(--high); color: #000; border-radius: 50%; width: 16px; height: 16px; font-size: 11px; display: grid; place-items: center; }
+.text { display: flex; flex-direction: column; min-width: 0; }
+.slot-name { font: 11px/1.2 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+.item-name { color: var(--gold); font-weight: bold; }
+.stats { font-size: 12px; color: var(--text); opacity: .85; }
+.badge { align-self: flex-start; margin-top: 2px; font: 11px/1.2 system-ui, sans-serif; color: var(--thorns); }
+.align-right .badge { align-self: flex-end; }
+.slot.changed { box-shadow: 0 0 0 1px var(--changed), 0 0 12px #5aa7ff55; }
+.new { position: absolute; top: 4px; font: bold 9px/1 system-ui, sans-serif; color: var(--changed); }
+.align-left .new, .align-bottom .new { right: 6px; }
+.align-right .new { left: 6px; }
+
+.details { position: sticky; top: 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+.details h2 { margin: 4px 0 10px; font-size: 18px; }
+.details h2 a { text-decoration: none; }
+.details dl { margin: 0; display: grid; gap: 6px; }
+.details dt { font: 11px/1.2 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+.details dd { margin: 0; }
+.alt { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+.notes { margin-top: 24px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px 18px; }
+.notes h3 { margin: 0 0 6px; color: var(--gold); }
+.notes li { margin: 4px 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; font-size: 12px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+.sw.conf-high { background: var(--high); } .sw.conf-med { background: var(--med); }
+.sw.conf-low { background: var(--low); } .sw.changed { background: var(--changed); }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .details { position: static; }
+}
+@media (max-width: 640px) {
+  .paperdoll { grid-template-columns: 1fr; grid-template-areas: "fig" "left" "right" "bottom"; }
+  .figure { flex-direction: row; }
+  .silhouette { max-width: 50px; }
+  .slot.align-right { flex-direction: row; text-align: left; }
+  .align-right .badge { align-self: flex-start; }
+  .align-right .new { left: auto; right: 6px; }
+  .ticks button { padding: 2px 2px; font-size: 12px; }
+}
