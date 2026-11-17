@@ -1,13 +1,20 @@
 {
  "20": {
   "level": 20,
-  "summary": "Get the Scepter from Ruins of Lordaeron at 17, then hand in at Undercity. Next, a Barrens craft session at Gor'mak, then Wailing Caverns for cloak and shield, and a Deadmines trip for wrist and ring. The SFK quest rewards and Gloomshroud Armor are really level 22-27 targets.",
+  "summary": "Get the Scepter first in Ruins of Lordaeron at 17, then finish the quests it starts in Undercity. Next, take the Grom'gol zeppelin for a Deadmines run, then go back through Orgrimmar to the Barrens for Wailing Caverns and one Blacksmithing session at Gor'mak. At 20, finish with the Friend of the Library turn-in and the AH pieces.",
   "steps": [
    {
-    "title": "Ruins of Lordaeron: The Abandoned",
-    "zone": "Ruins of Lordaeron (Tirisfal Glades / Undercity)",
+    "title": "Undercity: Ruins of Lordaeron pickups",
+    "zone": "Undercity",
+    "type": "quest",
+    "do": "At 15-17, take the zeppelin from Orgrimmar to Tirisfal. In the Royal Quarter, pick up Light's Justice from Morbin Lightbane. Other Ruins of Lordaeron quests are nice XP but optional: The New Plague (Theodore Griffs, Apothecarium) and The Wrath of Rath'mael (Deathguard Kristof, on the road to Brill).",
+    "items": []
+   },
+   {
+    "title": "Ruins of Lordaeron: The Abandoned and The Baron",
+    "zone": "Ruins of Lordaeron",
     "type": "dungeon",
-    "do": "At 17, first pick up Light's Justice from Morbin Lightbane (Royal Quarter, Undercity). Kill Witherfang (Atrophic Girdle alt). Then summon The Abandoned at the statue in the SW corner, which brings 3 waves before the boss. He drops the Scepter (34.7%) and Grip of Fear (32.7%). Loot the Abominable Head from The Baron to start Unending Torment. Both alts drop in the same run, so take them: they fill waist and hands until the crafts.",
+    "do": "Run it at 17+ until the Scepter of the Abandoned drops from The Abandoned (about 35%). Your weapon comes first. Always loot the Abominable Head from The Baron, because it starts Unending Torment. Loot Intact Limbs from the undead for Light's Justice. Optional: Grip of Fear (The Abandoned) and Atrophic Girdle (Witherfang) hold your hands and waist until you craft the Crusader's pieces.",
     "items": [
      {
       "name": "Scepter of the Abandoned",
@@ -27,33 +34,87 @@
     ]
    },
    {
-    "title": "Undercity turn-ins and library books",
+    "title": "Undercity: Unending Torment chain",
     "zone": "Undercity",
     "type": "quest",
-    "do": "Hand in Light's Justice to Morbin Lightbane for Spare Part Bindings, a leather wrist alt to wear until Sneed. Hand Unending Torment to Master Apothecary Faranell and finish the chain for Slain Baron's Signet, a ring alt until the Deadmines ring. Turn in 10 Library Books to Owen Thadd (Magic Quarter) for Friend of the Library and choose Scholarly Pendant.",
+    "do": "Take the Abominable Head to Master Apothecary Faranell in the Apothecarium and finish his chain for Slain Baron's Signet. It sends you around the city: the Unfinished Abomination, Blisterweed, Toxic Skullcap from Tawny Grisette, Essence of Agony from Ezekiel Graves, then the Hissing Serum. Turn in Light's Justice to Morbin while you're here. Optional: Spare Part Bindings is leather, and it covers your wrists until Sneed.",
     "items": [
      {
-      "name": "Scholarly Pendant",
-      "slot": "Neck",
+      "name": "Slain Baron's Signet",
+      "slot": "Finger 1",
       "kind": "bis"
      },
      {
       "name": "Spare Part Bindings",
       "slot": "Wrist",
       "kind": "alt"
+     }
+    ]
+   },
+   {
+    "title": "The Deadmines: Sneed and Mr. Smite",
+    "zone": "The Deadmines (Westfall)",
+    "type": "dungeon",
+    "do": "This is an ALLIANCE-TERRITORY trip. Take the Tirisfal zeppelin to Grom'gol, then run north through Duskwood into Westfall and down to Moonbrook. Group up before you go if you can. Farm Sneed for Bandsaw Wristbands (blocks trigger the thorns) and Mr. Smite for First Mate Band. Then go back through Grom'gol to Orgrimmar.",
+    "items": [
+     {
+      "name": "Bandsaw Wristbands",
+      "slot": "Wrist",
+      "kind": "bis"
      },
      {
-      "name": "Slain Baron's Signet",
-      "slot": "Finger 1",
+      "name": "First Mate Band",
+      "slot": "Finger 2",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
+    "title": "Wailing Caverns: Verdan the Everliving",
+    "zone": "Wailing Caverns (Barrens)",
+    "type": "dungeon",
+    "do": "Run at 19+ so you can equip Seedcloud Buckler. Kill Verdan the Everliving for Sporid Cape and the Buckler, about 32% each. Optional: Snake Eye Kaleidoscope from Lady Anacondra fills your neck until Friend of the Library. Leaders of the Fang (Wingblade) is optional. Its classic giver is Nara Wildmane in Thunder Bluff, but that's unconfirmed for Forever, and the Scepter is better for you anyway.",
+    "items": [
+     {
+      "name": "Sporid Cape",
+      "slot": "Back",
+      "kind": "bis"
+     },
+     {
+      "name": "Seedcloud Buckler + Iron Shield Spike",
+      "slot": "Off hand",
+      "kind": "bis"
+     },
+     {
+      "name": "Snake Eye Kaleidoscope",
+      "slot": "Neck",
+      "kind": "alt"
+     },
+     {
+      "name": "Wingblade",
+      "slot": "Main hand",
       "kind": "alt"
      }
     ]
    },
    {
-    "title": "Gor'mak plans + Crusader craft session",
-    "zone": "The Barrens (Crossroads west gate)",
+    "title": "Thorn Hill: Chol'aruk the Ravener",
+    "zone": "The Barrens",
+    "type": "quest",
+    "do": "Optional: Thornwoven Shield is a placeholder if Verdan won't drop the Buckler. Chol'aruk is a level-20 elite in a cave at Thorn Hill, close to the Crossroads, and you loot Chol'aruk's Head from him. The quest giver is unconfirmed. Don't put a spike on this shield, because spikes can't be moved to another shield.",
+    "items": [
+     {
+      "name": "Thornwoven Shield",
+      "slot": "Off hand",
+      "kind": "alt"
+     }
+    ]
+   },
+   {
+    "title": "Craft session at Gor'mak",
+    "zone": "The Barrens (outside the Crossroads west gate)",
     "type": "craft",
-    "do": "Bring 120 Merchant's Favor (from Waylaid Crate turn-ins). Buy the Crusader's Chain Belt (BS 45), Gloves (80), Boots (85) and Silvered Chain Helm (95) plans from Gor'mak at 30 MF each. None of these needs DSL rep. Get the Crusader's Chain Leggings (BS 100) and Crusader's Chain Shirt plans from the Blacksmithing trainer, and level BS to 100. Craft each piece when you reach its level: belt 12, shirt and gloves 15, boots 17, helm and legs 20. The shirt is your chest piece, because Gloomshroud needs level 20 and is a 0.02% drop.",
+    "do": "Buy the plans from Gor'mak for 30 Merchant's Favor each; they need no DSL rep: Crusader's Chain Belt (BS 45), Gloves (BS 80), Boots (BS 85) and Silvered Chain Helm (BS 95). The Belt needs 12 Copper Bar, 4 Rough Grinding Stone, 2 Pristine Leather and 2 Lesser Magic Essence. Other mats are unverified. The Helm needs level 20 to wear, so craft it now and equip it at 20. Buy Rough Bronze Shoulders on the AH if you don't have the plans. Optional: Strange Copper Boots (BS 35) is only worth making if you're still under 17.",
     "items": [
      {
       "name": "Crusader's Chain Belt",
@@ -76,9 +137,37 @@
       "kind": "bis"
      },
      {
+      "name": "Rough Bronze Shoulders",
+      "slot": "Shoulders",
+      "kind": "bis"
+     },
+     {
+      "name": "Strange Copper Boots",
+      "slot": "Feet",
+      "kind": "alt"
+     }
+    ]
+   },
+   {
+    "title": "Level 20: legs, chest and shield spike",
+    "zone": "Any capital (AH)",
+    "type": "craft",
+    "do": "Crusader's Chain Leggings (BS 95, needs level 20) comes from dropped plans, and the source is unconfirmed. Watch the AH for the plans. Optional: Defender Leggings of Magic (AH, level 18) fills legs until then. Buy Gloomshroud Armor on the AH, since the SFK trash drop rate is negligible. It needs level 20. Optional: Crusader's Chain Shirt (BS 80, dropped plans) is a chest placeholder. Make or buy an Iron Shield Spike and put it only on Seedcloud Buckler.",
+    "items": [
+     {
       "name": "Crusader's Chain Leggings",
       "slot": "Legs",
       "kind": "bis"
+     },
+     {
+      "name": "Gloomshroud Armor",
+      "slot": "Chest",
+      "kind": "bis"
+     },
+     {
+      "name": "Defender Leggings of Magic",
+      "slot": "Legs",
+      "kind": "alt"
      },
      {
       "name": "Crusader's Chain Shirt",
@@ -88,117 +177,73 @@
     ]
    },
    {
-    "title": "Wailing Caverns: Verdan the Everliving",
-    "zone": "Wailing Caverns (The Barrens)",
-    "type": "dungeon",
-    "do": "At 19 or higher, run WC. Verdan drops Sporid Cape (32.8%) and Seedcloud Buckler (32.2%, requires level 19). Lady Anacondra's Snake Eye Kaleidoscope is a minor neck alt you will pass anyway. Apply the Iron Shield Spike later, once you have it (see notes).",
-    "items": [
-     {
-      "name": "Sporid Cape",
-      "slot": "Back",
-      "kind": "bis"
-     },
-     {
-      "name": "Seedcloud Buckler + Iron Shield Spike",
-      "slot": "Off hand",
-      "kind": "bis"
-     },
-     {
-      "name": "Snake Eye Kaleidoscope",
-      "slot": "Neck",
-      "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Chol'aruk the Ravener (optional shield alt)",
-    "zone": "The Barrens (Thorn Hill cave)",
+    "title": "Undercity: Friend of the Library",
+    "zone": "Undercity",
     "type": "quest",
-    "do": "Optional, if Seedcloud won't drop. Chol'aruk is a level 20 elite quilboar in the cave at Thorn Hill. His head is for the quest Chol'aruk the Ravener, and the sheet lists Thornwoven Shield as its reward. The quest giver is unconfirmed. Bring a group.",
+    "do": "Pick up library books while you level. At 20, turn in 10 books to Owen Thadd in the Magic Quarter and choose Scholarly Pendant. Do this on your next trip to Undercity.",
     "items": [
      {
-      "name": "Thornwoven Shield",
-      "slot": "Off hand",
-      "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Deadmines: Sneed and Mr. Smite",
-    "zone": "The Deadmines (Westfall)",
-    "type": "dungeon",
-    "do": "Alliance territory: Westfall has no Horde flight path, so expect a long run in or a summon. Sneed drops Bandsaw Wristbands (30.9%, requires level 16). Mr. Smite drops First Mate Band (23.7%, requires level 17). Run it at 17-20.",
-    "items": [
-     {
-      "name": "Bandsaw Wristbands",
-      "slot": "Wrist",
-      "kind": "bis"
-     },
-     {
-      "name": "First Mate Band",
-      "slot": "Finger 2",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Later: Shadowfang Keep quests + Gloomshroud",
-    "zone": "Shadowfang Keep (Silverpine Forest)",
-    "type": "dungeon",
-    "do": "Pick up Deathstalkers in Shadowfang and Arugal Must Die at The Sepulcher in Silverpine. The givers are unconfirmed for Forever; in Classic they were High Executor Hadrec and Dalar Dawnweaver. Do both when you can kill Arugal, realistically at 22-25. Buy Gloomshroud Armor on the AH (BoE, requires level 20) rather than farming the 0.02% trash drop.",
-    "items": [
-     {
-      "name": "Bronzed Shoulderguards",
-      "slot": "Shoulders",
-      "kind": "bis"
-     },
-     {
-      "name": "Seal of Sylvanas",
-      "slot": "Finger 1",
-      "kind": "bis"
-     },
-     {
-      "name": "Gloomshroud Armor",
-      "slot": "Chest",
+      "name": "Scholarly Pendant",
+      "slot": "Neck",
       "kind": "bis"
      }
     ]
    }
   ],
   "notes": [
-   "Iron Shield Spike is not realistic before 20. One unverified database says the plans drop from chests in Arathi Highlands and Alterac Mountains. Sources disagree on whether it needs BS 125 or 150. Check the AH for a crafted spike; shield spikes may not need Blacksmithing to apply (unconfirmed for Forever).",
-   "Seal of Sylvanas (ilvl 29) and Bronzed Shoulderguards (ilvl 27) come from SFK quests that were level 25-27 in Classic. They are above this bracket unless Forever retuned them. Their Forever quest levels are unconfirmed.",
-   "Gloomshroud Armor is leather and requires level 20. In practice it is an AH buy at the very end of the bracket.",
-   "Crusader's Chain Leggings and Crusader's Chain Shirt as trainer plans are unconfirmed. Gor'mak's list has Silvered Chain Shirt and Leggings (BS 110/125), not these.",
-   "Craft materials are unverified. Expect copper and bronze bars, plus silver for the Silvered helm.",
-   "Unending Torment: one guide says The Baron drops the head that starts it, another says Witherfang. Loot both bosses.",
-   "Scholarly Pendant stats: the sheet says +3 Sta/+2 Spi, one guide says +6/+4. It needs 10 unique Library Books collected while levelling.",
-   "Wingblade (Leaders of the Fang, WC) was skipped. The Scepter comes first and is better for a thorns/spell-power paladin."
+   "Four BiS pieces need level 20: Crusader's Silvered Chain Helm, Crusader's Chain Leggings, Gloomshroud Armor and the Friend of the Library quest (quest level 20). Seedcloud Buckler needs 19, and the Scepter needs 17.",
+   "Iron Shield Spike needs BS 150, which you probably won't reach by 20 while you're making 45-95 crafts. Buy one on the AH, or add it later. Spikes can't be moved, so only put one on Seedcloud Buckler.",
+   "Unconfirmed: where the plans for Crusader's Chain Leggings, Crusader's Chain Shirt, Rough Bronze Shoulders and Iron Shield Spike come from. Gor'mak's list shows 'Crusader's Silvered Chain Leggings' (BS 125), not 'Crusader's Chain Leggings' (BS 95). Check which item the sheet means.",
+   "Unconfirmed: the Wowhead tooltips don't show the quest rewards for Slain Baron's Signet (Unending Torment) or Spare Part Bindings (Light's Justice). The guides confirm the quests but not the item rewards.",
+   "Unconfirmed: the quest giver for Chol'aruk the Ravener, and whether Leaders of the Fang still rewards Wingblade in Forever.",
+   "Gloomshroud Armor's ~0.02% SFK trash drop isn't on Wowhead. Treat it as AH only."
   ]
  },
  "25": {
   "level": 25,
-  "summary": "Run Shadowfang Keep first for the Blade of Silverlaine, then pick up the BoE Sterling Silver Shoulders. At 24-25, clear Blackfathom Deeps for the ring, trinket and belt, then finish at Gor'mak with the 125 leggings craft.",
+  "summary": "Shadowfang Keep first at 21-22 for Blade of Silverlaine and the Seal of Sylvanas quest. Then a Blacksmithing session at Gor'mak in the Crossroads, and finally a Blackfathom Deeps clear at 24-25 for the ring, trinket and belt.",
   "steps": [
    {
-    "title": "Shadowfang Keep: Baron Silverlaine",
-    "zone": "Shadowfang Keep (Silverpine Forest)",
+    "title": "The Sepulcher: pick up SFK quests",
+    "zone": "Silverpine Forest",
+    "type": "quest",
+    "do": "Fly to The Sepulcher and pick up the Horde Shadowfang Keep quests before zoning in. One of them rewards Seal of Sylvanas, and one rewards Bronzed Shoulderguards. Unconfirmed: in Classic the Seal came from 'Arugal Must Die'. The Forever quest name and giver are not verified.",
+    "items": []
+   },
+   {
+    "title": "Shadowfang Keep: Baron Silverlaine and Arugal",
+    "zone": "Shadowfang Keep",
     "type": "dungeon",
-    "do": "Fly to The Sepulcher and run SFK as soon as you hit 21. The Blade of Silverlaine needs level 21 and has about a 32% drop chance, so expect repeat runs. It is your main hand for the whole bracket, so get it first.",
+    "do": "Weapon first: farm Baron Silverlaine for Blade of Silverlaine (req 21, about 32% drop). Finish the SFK quest chain and hand it in for Seal of Sylvanas. Optional: take Bronzed Shoulderguards from the other SFK Horde quest. It fills shoulders until you craft Sterling Silver Shoulders.",
     "items": [
      {
       "name": "Blade of Silverlaine",
       "slot": "Main hand",
       "kind": "bis"
+     },
+     {
+      "name": "Seal of Sylvanas",
+      "slot": "Finger 2",
+      "kind": "bis"
+     },
+     {
+      "name": "Bronzed Shoulderguards",
+      "slot": "Shoulders",
+      "kind": "alt"
      }
     ]
    },
    {
-    "title": "Sterling Silver Shoulders (AH or craft)",
-    "zone": "Orgrimmar",
-    "type": "auction",
-    "do": "This is BoE and needs level 22. Gor'mak does not sell the plans. They are listed as a world drop at BS 110, but the drop source is unknown, so check the Orgrimmar AH first. If you find the plans, craft them yourself.",
+    "title": "Crossroads craft session: shoulders and leggings",
+    "zone": "The Barrens (Crossroads, Gor'mak)",
+    "type": "craft",
+    "do": "Buy Crusader's Silvered Chain Leggings plans from Gor'mak outside the Crossroads west gate. They need 30 MF and BS 125. Craft Sterling Silver Shoulders (BS 110, req 22). Their plans are a drop from an unconfirmed source, so check the Orgrimmar AH for the plans or for the BoE shoulders themselves. Mats are unverified, so expect mainly bronze/silver bars.",
     "items": [
+     {
+      "name": "Crusader's Silvered Chain Leggings",
+      "slot": "Legs",
+      "kind": "bis"
+     },
      {
       "name": "Sterling Silver Shoulders",
       "slot": "Shoulders",
@@ -207,10 +252,10 @@
     ]
    },
    {
-    "title": "Blackfathom Deeps: full clear",
+    "title": "Blackfathom Deeps: Ghamoo-ra, Gelihast, Aku'mai",
     "zone": "Blackfathom Deeps (Ashenvale)",
     "type": "dungeon",
-    "do": "Go at 24-25. Moss Cinch needs level 25 and Cursed Murloc Eye needs 24. Pick up the BFD quests from Je'neu Sancrea at Zoram'gar Outpost, then kill Ghamoo-ra (ring), Gelihast (trinket), Twilight Lord Kelris (take his head) and Aku'mai (belt). Each drop is roughly 29-32%, so plan on more than one run.",
+    "do": "Fly to Zoram'gar Outpost and run BFD at 24-25. Kill Ghamoo-ra for Spiked Shell Band (req 22), Gelihast for Cursed Murloc Eye (req 24) and Aku'mai for Moss Cinch (req 25). Optional: if you already have Blackfathom Villainy, finish it here for Dark Ritual Leggings. It is only a stopgap before the crafted leggings.",
     "items": [
      {
       "name": "Spiked Shell Band",
@@ -226,92 +271,41 @@
       "name": "Moss Cinch",
       "slot": "Waist",
       "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Blackfathom Villainy turn-in",
-    "zone": "Thunder Bluff",
-    "type": "quest",
-    "do": "Turn in Kelris's head to Bashana Runetotem in Thunder Bluff and take the Dark Ritual Leggings. The quest is level 27 and you get it from the same BFD runs. The leggings cover your legs until you reach BS 125 and level 25 for the crafted pair.",
-    "items": [
+     },
      {
       "name": "Dark Ritual Leggings",
       "slot": "Legs",
       "kind": "alt"
      }
     ]
-   },
-   {
-    "title": "Craft session: Gor'mak leggings",
-    "zone": "The Barrens (outside the Crossroads west gate)",
-    "type": "craft",
-    "do": "Buy Plans: Crusader's Silvered Chain Leggings from Gor'mak for 30 Merchant's Favor. No DSL rep is needed, but the plans need BS 125. Craft them once you reach 125, then equip at level 25. Materials are unverified; check the recipe before you farm.",
-    "items": [
-     {
-      "name": "Crusader's Silvered Chain Leggings",
-      "slot": "Legs",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Optional: Razorfen Kraul, Willix the Importer",
-    "zone": "Razorfen Kraul (Southern Barrens)",
-    "type": "dungeon",
-    "do": "Only do this if BFD will not drop the Spiked Shell Band. Escort Willix the Importer (inside RFK, near the end) and pick Snake Hoop as your stand-in ring. The quest's minimum level is reported as both 22 and 25.",
-    "items": [
-     {
-      "name": "Snake Hoop",
-      "slot": "Finger 1",
-      "kind": "alt"
-     }
-    ]
    }
   ],
   "notes": [
-   "Unconfirmed: where Plans: Sterling Silver Shoulders drop and what they need. warcraft.wiki.gg lists them as a BS 110 drop, and Gor'mak does not sell them.",
-   "Unconfirmed: the Horde quest giver for Blackfathom Villainy. Only the turn-in, Bashana Runetotem in Thunder Bluff, is confirmed.",
-   "Moss Cinch and the Silvered Chain Leggings both need level 25, so they come at the very end of the bracket.",
-   "Skipped new alts: Crusader's Chain Helm (BS 130, plan source unknown), Thornweaver Drape, Crusader's Silvered Chain Shirt and Worn Turtle Shell Shield. Each of those slots already has its BiS from an earlier bracket.",
-   "BFD is in Ashenvale, which is contested territory. Use Zoram'gar Outpost as your base.",
-   "Trinket 2 has no item listed."
+   "Moss Cinch and Crusader's Silvered Chain Leggings both require level 25, so they arrive at the very end of this bracket.",
+   "Wowhead tooltips confirm the boss drops: Blade of Silverlaine (Baron Silverlaine, ~32%), Spiked Shell Band (Ghamoo-ra, ~32%), Cursed Murloc Eye (Gelihast, ~32%), Moss Cinch (Aku'mai, ~29%).",
+   "Unconfirmed: the Forever quest names and givers for Seal of Sylvanas and Bronzed Shoulderguards. Wowhead item pages could not be read.",
+   "Unconfirmed: the Sterling Silver Shoulders plans source and the mats for both crafts. The leggings' 30 MF requirement is taken from the sheet.",
+   "Trinket 2 has no item listed ('None found'), so it has no step.",
+   "Moss Cinch is leather and its spell power is damage-only per the tooltip, not healing.",
+   "Skipped alts that are off-route: Thornweaver Drape and Snake Hoop (RFK), Crusader's Chain Helm (plans source unknown) and Crusader's Silvered Chain Shirt (the chest BiS is already owned)."
   ]
  },
  "30": {
   "level": 30,
-  "summary": "Open with Razorfen Kraul at 28-29 to start the Skullbreaker chain and grab the Blind Hunter amulet, turn the scroll in at Undercity, then run Excavation Site: Wetlands for the shoulders. After that, do one Blacksmithing session at 150 for the belt, and finish Skullbreaker by killing Ambassador Malcin. The SM Library shield is a step for later.",
+  "summary": "No new weapon this bracket, so the route is ordered by level requirement: Excavation Site: Wetlands at 28, Razorfen Kraul at 29-30, then one Blacksmithing session at level 30 with BS 150 for the belt and a fresh shield spike.",
   "steps": [
    {
-    "title": "Razorfen Kraul: Charlga + Blind Hunter",
-    "zone": "Razorfen Kraul (Southern Barrens)",
-    "type": "dungeon",
-    "do": "Run RFK at 28+. Charlga Razorflank drops the Small Scroll (40%, req 28), which starts the Skullbreaker chain, so this is the weapon's first step. The Blind Hunter is a rare spawn in RFK that drops the amulet (about 33%, req 29). Heart of Agamaggan also drops from Charlga (about 29%, req 30): take it as a stopgap shield until Vile Protector.",
-    "items": [
-     {
-      "name": "Stygian Bone Amulet",
-      "slot": "Neck",
-      "kind": "bis"
-     },
-     {
-      "name": "Heart of Agamaggan + spike",
-      "slot": "Off hand",
-      "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Undercity: hand Small Scroll to Varimathras",
-    "zone": "Undercity",
-    "type": "quest",
-    "do": "Take the zeppelin to Undercity and turn in An Unholy Alliance (Small Scroll) to Varimathras. That gives the follow-up, An Unholy Alliance: bring Ambassador Malcin's Head. You are now in the north for the Wetlands trip.",
+    "title": "Level Blacksmithing toward 150",
+    "zone": "Orgrimmar / Auction House",
+    "type": "craft",
+    "do": "While questing from 25 to 28, keep levelling Blacksmithing with Iron Bars so you hit 150 by level 30. You need 150 to learn Justicar's Belt and to apply an Iron Shield Spike. Buy Plans: Iron Shield Spike on the AH when you see them.",
     "items": []
    },
    {
     "title": "Excavation Site: Wetlands: Relic Guardian",
-    "zone": "Excavation Site: Wetlands",
+    "zone": "Excavation Site: Wetlands (Wetlands)",
     "type": "dungeon",
-    "do": "Kill the Relic Guardian, the final boss, for Reliquary Mantle (about 31%, req 28). Ring of Power Regulation drops from the same boss (about 29%, req 28), so take it if it drops. Also loot the boss for the Horde quest Elder Knowledge. Wetlands is Alliance-leaning: travel in from Arathi over Thandol Span and watch for Menethil guards.",
+    "do": "At level 28 or higher, run Excavation Site: Wetlands and kill the final boss, Relic Guardian. The Reliquary Mantle has about a 31% drop chance. Wetlands is Alliance-leaning territory, so watch out near Menethil. Optional: the same boss drops Ring of Power Regulation (about 29%), a caster ring you can keep if it drops.",
     "items": [
      {
       "name": "Reliquary Mantle",
@@ -326,10 +320,28 @@
     ]
    },
    {
-    "title": "Blacksmithing session at 150",
-    "zone": "Orgrimmar / Undercity (Blacksmithing trainer)",
+    "title": "Razorfen Kraul: Blind Hunter and Charlga",
+    "zone": "Razorfen Kraul (Southern Barrens)",
+    "type": "dungeon",
+    "do": "Run RFK at level 29-30. Clear toward Charlga Razorflank (Heart of Agamaggan, about 29%, requires level 30) and check the Blind Hunter's spawn on the way (Stygian Bone Amulet, about 33%, requires 29). Blind Hunter is a rare spawn, so you may need several runs.",
+    "items": [
+     {
+      "name": "Stygian Bone Amulet",
+      "slot": "Neck",
+      "kind": "bis"
+     },
+     {
+      "name": "Heart of Agamaggan + Iron Shield Spike",
+      "slot": "Off hand",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
+    "title": "Craft session: Justicar's Belt and new spike",
+    "zone": "Orgrimmar",
     "type": "craft",
-    "do": "Level Blacksmithing to 150 and learn Justicar's Belt (unconfirmed: warcraft.wiki.gg lists the plans as a trainer recipe, while the sheet says the source is unconfirmed). The belt needs level 30 to equip. Hard Gold Boots (BS 150, req 30, BoE) is a skill-up on the way that you can craft too. Also craft an Iron Shield Spike (BS 125) now, ready for the shield.",
+    "do": "At BS 150, learn Justicar's Belt from a Horde Blacksmithing trainer and craft it (BoP, requires level 30). Craft an Iron Shield Spike from Iron Bars and grinding stones and put it on the Heart of Agamaggan. Spikes can't be moved, so the old Seedcloud spike is lost. Optional: Hard Gold Boots (BS 150, BoE, requires 30) upgrade Crusader's Boots on armor and Strength, if you have the plans and the gold.",
     "items": [
      {
       "name": "Justicar's Belt",
@@ -344,29 +356,11 @@
     ]
    },
    {
-    "title": "Ambassador Malcin: finish Skullbreaker",
-    "zone": "Southern Barrens (unconfirmed: near Razorfen Downs)",
+    "title": "Optional: The Grave Knight (City of Dalaran)",
+    "zone": "Hillsbrad Foothills / City of Dalaran",
     "type": "quest",
-    "do": "Kill Ambassador Malcin and take his head to Varimathras in Undercity for Skullbreaker. In Classic he stands outside Razorfen Downs; his spot in Forever is unconfirmed. The quest is level 36, so expect this at around 32-35 or in a group.",
+    "do": "Optional: if you're in Hillsbrad anyway, pick up The Grave Knight from Melisara in Tarren Mill (requires 24) and kill Atrexis the Grave Knight in the City of Dalaran. Undead Knight's Bracers have more armor and Stamina than Bandsaw Wristbands but lose the on-block thorns.",
     "items": [
-     {
-      "name": "Skullbreaker",
-      "slot": "Main hand",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Later: SM Library shield (+ optional Dalaran bracers)",
-    "zone": "Scarlet Monastery Library / City of Dalaran",
-    "type": "quest",
-    "do": "Pick up Compendium of the Fallen from Sage Truthseeker in Thunder Bluff (quest level 38). Loot the Compendium in the SM Library and turn it in for Vile Protector, then attach the Iron Shield Spike. Optional: The Grave Knight, from Melisara in Tarren Mill, rewards Undead Knight's Bracers for killing Atrexis in City of Dalaran (level 33, req 24). Horde need a Hillsbrad attunement chain to enter.",
-    "items": [
-     {
-      "name": "Vile Protector + Iron Shield Spike",
-      "slot": "Off hand",
-      "kind": "bis"
-     },
      {
       "name": "Undead Knight's Bracers",
       "slot": "Wrist",
@@ -376,23 +370,30 @@
    }
   ],
   "notes": [
-   "Skullbreaker is a level 36 quest chain. Realistically it lands at 32-35, past this bracket. Ambassador Malcin's location in Forever is unconfirmed.",
-   "Vile Protector comes from a level 38 SM Library quest and is item level 40. It can't realistically be had by 30; use Heart of Agamaggan until then.",
-   "Justicar's Belt: BS 150, req 30. The plans source is unconfirmed (wiki says trainer). Mats not verified.",
-   "Iron Shield Spike: no Forever id in items.json. BS 125 per the sheet; mats not verified.",
-   "Trinket 2 has no item listed ('None found'), so there is nothing to plan for it.",
-   "Wetlands loot tables vary between beta-era guides. The Wowhead tooltip confirms Relic Guardian for both the Mantle and the Ring."
+   "The Main hand is unchanged (Blade of Silverlaine, carried over), so there's no weapon to get first.",
+   "Heart of Agamaggan and Justicar's Belt both require level 30. Expect to finish this bracket's shield and belt right at 30.",
+   "Justicar's Belt: warcraft.wiki.gg lists it as BS 150, learned from a trainer. Its reagents and the exact trainer NPC are unconfirmed.",
+   "Plans: Iron Shield Spike: Metaforge lists them as a chest drop in Arathi Highlands and Alterac Mountains, and gives the reagents as Iron Bar plus Coarse Grinding Stone. Both are unconfirmed. Applying the spike needs BS 150, per the Wowhead tooltip.",
+   "Excavation Site: Wetlands: guides disagree on its level range (24-33). There may be a Horde quest from Relic Guardian's Titan Relic ('Elder Knowledge', unconfirmed).",
+   "Trinket 2 has no item in the sheet. The Seedcloud Buckler alt is flagged as new only because its name differs ('+ spike'); it was BiS in earlier brackets, so it's left out."
   ]
  },
  "35": {
   "level": 35,
-  "summary": "Only three BiS pieces are new this bracket, and the main hand (Skullbreaker) carries over. Farm Scarlet Wristguards in SM from 31, build MF/DSL rep and BS skill while levelling, then at 35 craft Justicar's Gauntlet and run The Drowned City for Heart of the Primeval.",
+  "summary": "Start the Skullbreaker chain in RFK, cross to Undercity for the Malcin follow-up and a Scarlet Monastery Library run, loop back through Kalimdor for Malcin, the Thunder Bluff turn-in and a Crossroads craft session, then hand in Skullbreaker in Undercity and take the zeppelin to Stranglethorn for The Drowned City at 35.",
   "steps": [
    {
-    "title": "Scarlet Monastery: Scarlet Wristguards",
-    "zone": "Scarlet Monastery (Tirisfal Glades)",
+    "title": "Razorfen Kraul: Small Scroll from Charlga",
+    "zone": "Razorfen Kraul (The Barrens)",
     "type": "dungeon",
-    "do": "From level 31, kill Scarlet Crusade trash while you run SM wings for XP and quests. These are BoE (req 31), so check the Undercity AH first and buy them if the price is fair. The exact drop source in Forever is unconfirmed.",
+    "do": "On the way, pick up Compendium of the Fallen from Sage Truthseeker in Thunder Bluff. Kill Charlga Razorflank for the Small Scroll (40% drop, req 28), which starts the Skullbreaker chain. Skip the run if you kept the scroll from your level-30 Heart of Agamaggan runs.",
+    "items": []
+   },
+   {
+    "title": "Undercity and Scarlet Monastery: Library",
+    "zone": "Undercity / Scarlet Monastery (Tirisfal Glades)",
+    "type": "dungeon",
+    "do": "Take the zeppelin from Orgrimmar to Undercity. Give the Small Scroll to Varimathras and accept the follow-up An Unholy Alliance (bring back Ambassador Malcin's Head). Then run SM Library for the Compendium of the Fallen. Scarlet Wristguards (req 31) is BoE and drops somewhere in SM; the exact mob is unconfirmed, so loot the Graveyard and Library trash or buy it on the AH.",
     "items": [
      {
       "name": "Scarlet Wristguards",
@@ -402,17 +403,23 @@
     ]
    },
    {
-    "title": "Build DSL rep, MF and Blacksmithing to 175",
-    "zone": "The Barrens (Crossroads, west gate)",
-    "type": "world",
-    "do": "While levelling 31-35, fill and turn in supply crates at the Durotar Supply and Logistics camp until you are Friendly and have 60 Merchant's Favor. Skill Blacksmithing up to 175 at the same time.",
-    "items": []
+    "title": "Ambassador Malcin and Thunder Bluff turn-in",
+    "zone": "Outside Razorfen Downs / Thunder Bluff",
+    "type": "quest",
+    "do": "Zeppelin back to Orgrimmar. Kill Ambassador Malcin outside Razorfen Downs for his head; the quest is level 36, so bring a group. Then hand in Compendium of the Fallen to Sage Truthseeker in Thunder Bluff and choose Vile Protector. Its spike is made in the next step: a spike can't be moved between shields, so put a new one on this shield.",
+    "items": [
+     {
+      "name": "Vile Protector + Iron Shield Spike",
+      "slot": "Off hand",
+      "kind": "bis"
+     }
+    ]
    },
    {
-    "title": "Craft session: Justicar's Gauntlet",
-    "zone": "The Barrens (Crossroads, west gate)",
+    "title": "Crossroads craft session",
+    "zone": "The Crossroads (The Barrens)",
     "type": "craft",
-    "do": "Buy Plans: Justicar's Gauntlet from Gor'mak (60 MF, DSL Friendly, BS 175) and craft it. It is BoP and requires level 35, so craft it when you hit 35. The materials are unconfirmed, so check the plans tooltip before you farm.",
+    "do": "Buy Plans: Justicar's Gauntlet from Gor'mak outside the Crossroads west gate. It needs 60 MF and DSL Friendly, and you craft it at BS 175 (req level 35). Craft an Iron Shield Spike (BS 150) and apply it to Vile Protector; its plans are a drop or come from the AH. If you're not level 35 yet, craft the gauntlet after Undercity, before you head to Stranglethorn.",
     "items": [
      {
       "name": "Justicar's Gauntlet",
@@ -422,10 +429,23 @@
     ]
    },
    {
+    "title": "Undercity: Varimathras turn-in",
+    "zone": "Undercity",
+    "type": "quest",
+    "do": "Zeppelin to Undercity and give Ambassador Malcin's Head to Varimathras. Choose Skullbreaker, which replaces Blade of Silverlaine as your weapon.",
+    "items": [
+     {
+      "name": "Skullbreaker",
+      "slot": "Main hand",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
     "title": "The Drowned City: Primeval Elemental",
-    "zone": "The Drowned City (underwater off northern Stranglethorn Vale)",
+    "zone": "The Drowned City (Stranglethorn Vale)",
     "type": "dungeon",
-    "do": "The dungeon is level 35-42 and the entrance is underwater past the Vile Reef. Bring water breathing. To spawn the Primeval Elemental (level 38 elite), kill all the Undying Offering trolls in the big circular room. The trinket drops about 36% of the time and needs level 35, so repeat the run until it drops.",
+    "do": "Take the Undercity zeppelin to Grom'gol. The entrance is underwater off the Stranglethorn coast: swim past The Vile Reef to the Sunken Hollow and look for the cavern with a large tablet. The Primeval Elemental is in the submerged southern room; kill the Undying Offering trolls to make it spawn. Heart of the Primeval drops 36% of the time, BoP, req 35.",
     "items": [
      {
       "name": "Heart of the Primeval",
@@ -433,57 +453,51 @@
       "kind": "bis"
      }
     ]
-   },
-   {
-    "title": "Later / optional: The Green Tower, Arena Master",
-    "zone": "Auction House / Stranglethorn Vale",
-    "type": "auction",
-    "do": "The Green Tower is a BoE epic shield with thorns, but it requires level 36, so buy it from the AH at 36 if the price is fair. Arena Master is unconfirmed in Forever. In Classic it comes from the Gurubashi Arena chest event in STV, a contested PvP area. Grab it only if you are in STV for The Drowned City anyway.",
-    "items": [
-     {
-      "name": "The Green Tower (req 36, epic BoE)",
-      "slot": "Off hand",
-      "kind": "alt"
-     },
-     {
-      "name": "Arena Master",
-      "slot": "Trinket 2",
-      "kind": "alt"
-     }
-    ]
    }
   ],
   "notes": [
-   "No new main hand this bracket. Skullbreaker carries over from level 30.",
-   "Justicar's Gauntlet and Heart of the Primeval both require level 35, so you can only use them at the very end of the bracket.",
-   "Scarlet Wristguards: Wowhead confirms BoE, req 31, Chain of the Scarlet Crusade set. It does not show a Forever drop source, so the exact mob is unconfirmed.",
-   "Justicar's Gauntlet plans cost 60 MF at DSL Friendly and need BS 175 (wow-professions.com). The materials are unverified.",
-   "The Green Tower requires level 36, above this bracket.",
-   "Arena Master's Forever source is unconfirmed. It is BoP, req 35, and starts a quest."
+   "Skullbreaker is started first, but it finishes late. Its two quests are level 36 and send you to Undercity twice, so you can't get the weapon first unless you skip the other content.",
+   "Unconfirmed: whether Ambassador Malcin is elite, and exactly where he stands outside Razorfen Downs.",
+   "Vile Protector is confirmed by Wowhead as a choice reward from Compendium of the Fallen (Sage Truthseeker, Thunder Bluff; quest level 38). The book is in SM Library.",
+   "Scarlet Wristguards: the Wowhead tooltip says Binds when equipped (the sheet says '-'). It has no listed drop source, so the AH is a valid route.",
+   "Justicar's Gauntlet and Heart of the Primeval both require level 35, so you can only get them at the very end of this bracket. The Drowned City is listed as a level 35-42 dungeon.",
+   "Unconfirmed: the mats for Justicar's Gauntlet, and where Merchant's Favor and DSL rep come from. Check Gor'mak's tooltip before you farm.",
+   "Unconfirmed in Forever: where Plans: Iron Shield Spike drops. Classic lists it as a drop; the sheet says the plans need BS 125.",
+   "Heart of Agamaggan (the off-hand alt) was your level-30 BiS, so it's skipped here. Arena Master (the Trinket 2 alt, req 35) has no confirmed source. In Classic it came from the Gurubashi Arena chest in Stranglethorn, a contested PvP area, but this is unconfirmed for Forever."
   ]
  },
  "40": {
   "level": 40,
-  "summary": "Craft the gauntlets at 35, then The Drowned City while the weapon is still out of reach (req 39). Run SM Cathedral at 39 for the mace and shield, then Razorfen Downs, the boots craft at the Crossroads, and Uldaman at 40.",
+  "summary": "Weapon first in SM Cathedral (plus Armory shoulders and the Aegis), then The Drowned City, a Crossroads craft session, Razorfen Downs and finally Uldaman at 40 for the level-40 head piece and the necklace quest.",
   "steps": [
    {
-    "title": "Craft session: Warder's Gauntlet",
-    "zone": "The Barrens (Crossroads)",
-    "type": "craft",
-    "do": "Buy Plans: Warder's Gauntlet from Gor'mak outside the Crossroads west gate (60 Merchant's Favor, needs DSL Friendly) and craft it at BS 175. It is BoP with req 35, so you can wear it for the whole bracket. Exact mats are unconfirmed; check the plans tooltip.",
+    "title": "Scarlet Monastery: Armory and Cathedral",
+    "zone": "Scarlet Monastery (Tirisfal Glades)",
+    "type": "dungeon",
+    "do": "Fly to the Undercity and ride to the Monastery at 38-39. Run Armory for Herod, then Cathedral for Mograine and Whitemane; repeat Cathedral until the mace drops (equips at 39). The Aegis needs a new shield spike, made in the craft session.",
     "items": [
      {
-      "name": "Warder's Gauntlet",
-      "slot": "Hands",
+      "name": "Hand of Righteousness",
+      "slot": "Main hand",
+      "kind": "bis"
+     },
+     {
+      "name": "Herod's Shoulder",
+      "slot": "Shoulders",
+      "kind": "bis"
+     },
+     {
+      "name": "Aegis of the Scarlet Commander + spike",
+      "slot": "Off hand",
       "kind": "bis"
      }
     ]
    },
    {
-    "title": "The Drowned City: Deathless Marrow + trash",
-    "zone": "The Drowned City (Stranglethorn Vale)",
+    "title": "The Drowned City: Deathless Marrow and Risen Sentries",
+    "zone": "The Drowned City",
     "type": "dungeon",
-    "do": "Fly to Grom'gol and run it at 35-38 while the mace (req 39) is still out of reach. Kill Deathless Marrow for Knucklebone Ring (33%). Risen Sentry trash drops the Links at about 2%, and they are BoE, so check the AH. Berserker Shackles (Zul'Alai) are a wrist stopgap if you never got Scarlet Wristguards.",
+    "do": "Kill Deathless Marrow for the ring. Risen Sentry's Links is a ~1.8% BoE trash drop, so check the Auction House before farming. Optional: Berserker Shackles from Zul'Alai fills wrist on the same run if Scarlet Wristguards never dropped.",
     "items": [
      {
       "name": "Knucklebone Ring",
@@ -503,46 +517,33 @@
     ]
    },
    {
-    "title": "SM Cathedral: Mograine and Whitemane",
-    "zone": "Scarlet Monastery (Tirisfal Glades)",
-    "type": "dungeon",
-    "do": "This is the weapon priority. At 38-39, run Cathedral for Hand of Righteousness (Whitemane, 32%) and Aegis of the Scarlet Commander (Mograine, 25%), both req 39. Attach a new shield spike: spikes can't be moved from an old shield.",
+    "title": "Crossroads craft session",
+    "zone": "The Barrens (Crossroads)",
+    "type": "craft",
+    "do": "Buy Plans: Warder's Gauntlet from Gor'mak outside the Crossroads west gate (60 MF, DSL Friendly; BS 175). Craft a fresh Iron Shield Spike for the Aegis, since the old one stays on Vile Protector. Warder's Boots need BS 200 and level 40, and the plans source is unconfirmed. Optional: Shining Mithril pieces (BS 195, BoE) are skill-ups on the way to 200, and Justicar's Boots (BS 200) can cover feet if you can't find the Warder's plans.",
     "items": [
      {
-      "name": "Hand of Righteousness",
-      "slot": "Main hand",
+      "name": "Warder's Gauntlet",
+      "slot": "Hands",
       "kind": "bis"
      },
      {
-      "name": "Aegis of the Scarlet Commander + spike",
-      "slot": "Off hand",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "SM Armory + Library",
-    "zone": "Scarlet Monastery (Tirisfal Glades)",
-    "type": "dungeon",
-    "do": "Same trip: Herod in Armory for Herod's Shoulder (24%, req 37). If you have Compendium of the Fallen (Sage Truthseeker, Thunder Bluff), loot it in the Library while you are here, since it is on the way. It is a fallback shield if the Aegis won't drop.",
-    "items": [
-     {
-      "name": "Herod's Shoulder",
-      "slot": "Shoulders",
+      "name": "Warder's Boots",
+      "slot": "Feet",
       "kind": "bis"
      },
      {
-      "name": "Vile Protector (best pure AoE) / The Green Tower",
-      "slot": "Off hand",
+      "name": "Justicar's Boots",
+      "slot": "Feet",
       "kind": "alt"
      }
     ]
    },
    {
     "title": "Razorfen Downs: Tuten'kash",
-    "zone": "Razorfen Downs (Barrens / Thousand Needles border)",
+    "zone": "Razorfen Downs (Southern Barrens)",
     "type": "dungeon",
-    "do": "Back in Kalimdor at 39-40: Tuten'kash drops Silky Spider Cape (33%, req 37) and Carapace of Tuten'kash (33%, req 40). Extinguishing the Idol gives Dragonclaw Ring, an optional Finger 1 swap since you are in here anyway.",
+    "do": "Close to the Crossroads, so run this straight after the craft session. Tuten'kash drops both the cape (level 37) and the chest (level 40). Optional: take Extinguishing the Idol inside for Dragonclaw Ring, and kill Ragglesnout (rare spawn) for Boar Champion's Belt if he is up.",
     "items": [
      {
       "name": "Silky Spider Cape",
@@ -558,45 +559,37 @@
       "name": "Dragonclaw Ring",
       "slot": "Finger 1",
       "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Craft session: Warder's Boots",
-    "zone": "The Barrens (Crossroads)",
-    "type": "craft",
-    "do": "At 40 with BS 200, craft Warder's Boots (BoP, req 40). Where the plans come from is unconfirmed: check Gor'mak first while passing the Crossroads after RFD. Pick up Necklace Recovery from Dran Droffers (The Drag, Orgrimmar) before you head east.",
-    "items": [
+     },
      {
-      "name": "Warder's Boots",
-      "slot": "Feet",
-      "kind": "bis"
+      "name": "Boar Champion's Belt",
+      "slot": "Waist",
+      "kind": "alt"
      }
     ]
    },
    {
-    "title": "Uldaman: Lost Dwarves + necklace chain",
+    "title": "Uldaman: Eric 'The Swift' and the necklace quest",
     "zone": "Uldaman (Badlands)",
     "type": "dungeon",
-    "do": "Fly to Kargath. Eric 'The Swift' (Lost Dwarves) drops Horned Viking Helmet (41%, req 40). For Necklace Recovery, loot the Shattered Necklace from Shadowforge dwarves and bring it to Dran Droffers. For Find the Gems and Power Source, take the gems and the power source to Jarkal Mossmeld in Kargath. Then do Deliver the Gems and finally Necklace Recovery, Take 3 (req 40).",
+    "do": "Fly to Kargath and pick up the Necklace Recovery chain (unconfirmed for Forever: classic giver is Jarkal Mossmeld in Kargath). Finish Necklace Recovery, Take 3 inside Uldaman, and kill Eric 'The Swift' in the Lost Dwarves fight for the helmet (level 40).",
     "items": [
-     {
-      "name": "Horned Viking Helmet",
-      "slot": "Head",
-      "kind": "bis"
-     },
      {
       "name": "Jarkal's Enhancing Necklace",
       "slot": "Neck",
       "kind": "bis"
+     },
+     {
+      "name": "Horned Viking Helmet",
+      "slot": "Head",
+      "kind": "bis"
      }
     ]
    },
    {
-    "title": "Later: Libram of Invocation (source unknown)",
-    "zone": "Unknown",
-    "type": "world",
-    "do": "Libram of Invocation is BoP, req 40, and its source is unconfirmed. Grab it when a source is found; it is a small gain (-5% Seal cost).",
+    "title": "Later: Libram of Invocation",
+    "zone": "Unconfirmed",
+    "type": "craft",
+    "do": "This is an Enchanting 210 BoP craft, so a Blacksmith can't make or buy it. Skip it unless you level Enchanting. The formula vendor and its rep faction are unconfirmed.",
     "items": [
      {
       "name": "Libram of Invocation",
@@ -607,24 +600,23 @@
    }
   ],
   "notes": [
-   "Several BiS items need level 39-40: Hand of Righteousness, Aegis (39); Carapace, Horned Viking Helmet, Warder's Boots, Libram (40). Jarkal's necklace quest needs 40. So most of this bracket's gear lands at the very end, and Uldaman is closer to a 40-44 run.",
-   "Risen Sentry's Links: about 1.8% from Risen Sentry trash, BoE. The AH is likely faster than farming.",
-   "Warder's Boots plans: source unconfirmed (wikis list it as '?', BS 200). Gor'mak is confirmed only for Warder's Gauntlet (60 MF).",
-   "Libram of Invocation: no source found on Wowhead Forever or the wikis.",
-   "Unconfirmed: the SM Library quest for Vile Protector (in Classic it is Compendium of the Fallen, from Varimathras in Undercity). Its Forever giver and level are not verified.",
-   "Uldaman quest rewards were partly reworked in Forever. The necklace chain steps come from Classic data and the Forever quest pages, so check the reward in the quest log.",
-   "Sheet stat differences: Carapace of Tuten'kash shows 373 armor with +8 Agi on Wowhead Forever (the sheet lists only Sta/Str)."
+   "Level gates (Wowhead tooltips): Horned Viking Helmet, Carapace of Tuten'kash, Warder's Boots and Libram of Invocation all require level 40, so they're only usable at the very end of the bracket. Hand of Righteousness and the Aegis require 39.",
+   "Warder's Boots: BS 200 is confirmed by third-party databases (the sheet says ~200), but where the plans come from is still unknown. Mats are unverified.",
+   "Iron Shield Spike: the classic recipe was 8 Iron Bar + 4 Heavy Grinding Stone. This is unverified for Forever.",
+   "Unconfirmed: the Necklace Recovery quest givers and where they start, and the location and entrance of The Drowned City.",
+   "Libram of Invocation is effectively unobtainable for a Blacksmith-only character, because it is a BoP Enchanting craft.",
+   "Herod's Shoulder, Warder's Gauntlet and Risen Sentry's Links are mail. Swap to plate when the level-45 Warder's pieces come online."
   ]
  },
  "45": {
   "level": 45,
-  "summary": "Run Zul'Farrak at 42-43 for the axe, ring and helm, pick up the cape in Uldaman, then do one Crossroads craft session as DSL rep allows. Finish with Maraudon at 45 for the shield; the Sunken Temple trinket is a later, optional step.",
+  "summary": "Run Zul'Farrak first for Dune Hacker (plus headdress and ring in the same run), then Uldaman for the cape, a Crossroads craft session for the Warder's pieces and the shield spike, and Maraudon at 45 for Putridus Wall. Wristguards and Thorium Belt close out the bracket at 45.",
   "steps": [
    {
     "title": "Zul'Farrak: Zerillis, Zum'rah, Nekrum",
     "zone": "Zul'Farrak (Tanaris)",
     "type": "dungeon",
-    "do": "Fly to Gadgetzan and run ZF from level 43 so all three items are usable (axe 42, ring and helm 43). Kill the rare Zerillis for Dune Hacker (about 53%) first: the weapon is the priority. Then kill Witch Doctor Zum'rah for Blood Ritual Ring (about 26%) and Nekrum Gutchewer at the stairs event for Undying Headdress (about 33%). Rerun until you have all three.",
+    "do": "Fly to Gadgetzan at 42+ and run Zul'Farrak. Kill Zerillis for Dune Hacker (req 42, about 53% drop), then Witch Doctor Zum'rah for Blood Ritual Ring and Nekrum Gutchewer for Undying Headdress. Both are req 43 and BoP, so loot them at 42 and equip at 43. Repeat runs until all three drop.",
     "items": [
      {
       "name": "Dune Hacker",
@@ -647,7 +639,7 @@
     "title": "Uldaman: Galgann Firehammer",
     "zone": "Uldaman (Badlands)",
     "type": "dungeon",
-    "do": "Fly to Kargath and run Uldaman for Galgann Firehammer, who drops Emberscale Cape (requires 42, about 26%). Do this alongside the Horde Uldaman quests you're already doing in the Badlands.",
+    "do": "Fly to Kargath and run Uldaman. Galgann Firehammer drops Emberscale Cape (req 42, about 26%). If you still need any Horde Uldaman quests, do them in the same run.",
     "items": [
      {
       "name": "Emberscale Cape",
@@ -657,23 +649,37 @@
     ]
    },
    {
-    "title": "Reach DSL Honored and bank Merchant's Favor",
-    "zone": "The Barrens (Crossroads)",
-    "type": "vendor",
-    "do": "Keep turning in supplies to Durotar Supply and Logistics until you reach Honored, and save at least 150 Merchant's Favor (60 for the pauldrons, 90 for the wristguards). Level Blacksmithing to 225+ as you go, and to 250 if you'll make the belt yourself.",
-    "items": []
-   },
-   {
-    "title": "Crossroads craft session: Warder's plate and Thorium Belt",
-    "zone": "The Barrens (Crossroads)",
+    "title": "Crossroads craft session: Pauldrons and spike",
+    "zone": "The Barrens (Gor'mak, outside the Crossroads west gate)",
     "type": "craft",
-    "do": "From Gor'mak, outside the Crossroads west gate, buy Plans: Warder's Pauldrons (BS 210, DSL Friendly, 60 MF) and Plans: Warder's Wristguard (BS 225, DSL Honored, 90 MF), then craft both. The wristguards need level 45 to wear. Thorium Belt is BoE (BS 250, about 8 Thorium Bars, level 45 to wear): buying it on the Auction House is usually fastest.",
+    "do": "Buy the Warder's Pauldrons plans from Gor'mak (60 MF, DSL Friendly) and craft them at BS 210 (req 42). In the same session, craft a Mithril Shield Spike (BS 215; 4 Mithril Bar, 2 Truesilver Bar, 4 Solid Grinding Stone) and keep it for Putridus Wall. Spikes can't be moved, so your current shield's spike stays on it. Meanwhile keep turning in MF and DSL toward Honored.",
     "items": [
      {
       "name": "Warder's Pauldrons",
       "slot": "Shoulders",
       "kind": "bis"
-     },
+     }
+    ]
+   },
+   {
+    "title": "Maraudon: Lord Vyletongue",
+    "zone": "Maraudon (Desolace)",
+    "type": "dungeon",
+    "do": "At 45, fly to Shadowprey Village and run Maraudon. Lord Vyletongue drops Putridus Wall (req 45, about 21%). Put the Mithril Shield Spike from the craft session on it right away.",
+    "items": [
+     {
+      "name": "Putridus Wall + spike",
+      "slot": "Off hand",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
+    "title": "Level 45 finish: Wristguards and Thorium Belt",
+    "zone": "The Barrens / any Horde auction house",
+    "type": "craft",
+    "do": "Once you are DSL Honored with 90 MF, buy the Warder's Wristguards plans from Gor'mak and craft them (BS 225, req 45). Thorium Belt is BoE (req 45): the plans need BS 225 and take 12 Thorium Bar and 4 Red Power Crystal. Buying the belt from the AH is usually faster than finding the plans.",
+    "items": [
      {
       "name": "Warder's Wristguards",
       "slot": "Wrist",
@@ -685,53 +691,27 @@
       "kind": "bis"
      }
     ]
-   },
-   {
-    "title": "Maraudon: Lord Vyletongue",
-    "zone": "Maraudon (Desolace)",
-    "type": "dungeon",
-    "do": "At 45, take the Shadowprey Village flight and run the purple wing of Maraudon for Lord Vyletongue, who drops Putridus Wall (requires 45, about 21%). Put a shield spike on it straight away to keep thorns damage on block.",
-    "items": [
-     {
-      "name": "Putridus Wall + spike",
-      "slot": "Off hand",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Later: Sunken Temple trinket",
-    "zone": "Swamp of Sorrows / Sunken Temple",
-    "type": "quest",
-    "do": "In Stonard, do the Fel'Zerul chain (Pool of Tears, The Atal'ai Exile, Return to Fel'Zerul). Then take The Temple of Atal'Hakkar: bring back 20 Fetishes of Hakkar from the trolls in and around the Sunken Temple, and the reward is Guardian Talisman. This is a level-50 dungeon quest, so expect to finish it late in this bracket or in the next.",
-    "items": [
-     {
-      "name": "Guardian Talisman",
-      "slot": "Trinket 1",
-      "kind": "bis"
-     }
-    ]
    }
   ],
   "notes": [
-   "Guardian Talisman: the sheet names 'Into The Temple of Atal'Hakkar', but that is the Alliance quest (Brohann Caskbelly, Stormwind). The Horde version is 'The Temple of Atal'Hakkar' from Fel'Zerul in Stonard. A Forever guide (gfinityesports) says both reward the talisman; Wowhead's Forever tooltip didn't show rewards, so this is unconfirmed. Forever tooltip: +9 Sta, Use: reduces enemy detection range by 10 yds (no armor proc as in Classic). Quest is level 50.",
-   "Warder's Wristguards and Thorium Belt both require level 45, so you can only wear them at the very end of this bracket.",
-   "Thorium Belt: in Classic the plans are a world drop (mobs level 45-58), not a trainer recipe. That's unconfirmed for Forever. Gor'mak also sells Warder's Waistguard (BS 250, Honored, 90 MF), which may be worth comparing.",
-   "Gor'mak's plan is listed as 'Warder's Wristguard' (singular) on wow-professions.com; the sheet and Wowhead use 'Warder's Wristguards'.",
-   "Zerillis is a rare in Zul'Farrak, and where it spawns is unconfirmed here; check the outdoor sand areas on each run.",
-   "Shield spike type for Putridus Wall is not specified in the sheet; use the best spike you can craft (unconfirmed which).",
-   "Alt Aegis of the Scarlet Commander (SM Cathedral, Mograine, requires 39, holy damage on block) is left out: it's a detour back to Tirisfal for a shield you'd use for only a few levels."
+   "Putridus Wall, Warder's Wristguards and Thorium Belt all need level 45, so you can only equip them at the very end of this bracket.",
+   "Warder's Wristguards need DSL Honored. If you aren't Honored yet, keep the Wristguards for the next bracket.",
+   "Mithril Shield Spike plans need BS 190. Unconfirmed: where to get the plans in Forever (in Classic they were a world drop). Check the AH.",
+   "Warder's Pauldrons and Wristguards mats are unconfirmed, because the tooltips don't list them.",
+   "Unconfirmed: whether Zerillis is always up in Forever's Zul'Farrak. In Classic he was a wandering rare elite.",
+   "Thorium Belt plans source is unconfirmed (the sheet says the same). Red Power Crystals come from Un'Goro, so crafting it yourself at 45 is slow.",
+   "Aegis of the Scarlet Commander is flagged as a new alt, but it was your level-40 BiS shield, so you already have it. It's not listed here."
   ]
  },
  "50": {
   "level": 50,
-  "summary": "Weapon first in Blackrock Depths from level 48, then Alcaz Prison and Maraudon for the trinket, waist stopgap and legs. Craft the Warder's pieces at 50, then start the Sunken Temple helm chain. The Blackmaw Hold ring waits until 55+.",
+  "summary": "Weapon first in Blackrock Depths at 48, then the Sunken Temple quest while still in the Eastern Kingdoms. Cross to Kalimdor for Alcaz Prison and Maraudon, and finish with a Warder's craft session at Gor'mak once you are Honored with DSL.",
   "steps": [
    {
-    "title": "Blackrock Depths: Warder Stilgiss and the Ring of Law",
-    "zone": "Blackrock Depths (Searing Gorge / Burning Steppes)",
+    "title": "Blackrock Depths: Warder Stilgiss and Ring of Law",
+    "zone": "Blackrock Depths",
     "type": "dungeon",
-    "do": "From level 48, fly to Kargath (Badlands) and enter BRD via Blackrock Mountain. Kill Warder Stilgiss for Arbiter's Blade (req 48, 19.9%). Do the Ring of Law: Anub'shiah is one of several random arena bosses and drops the cape (15.5%) and chest (25%), both req 50. Kill Fineous Darkvire on the same run: his helm (req 50) covers Head until the Sunken Temple quest is done.",
+    "do": "Fly to Kargath (Badlands) and enter BRD through Blackrock Mountain. Kill Warder Stilgiss in the Vault for Arbiter's Blade (req 48, about 20% drop), the weapon upgrade that comes first. In the same runs, Anub'shiah is one of the random Ring of Law challengers: Carapace (25%) and Graverot Cape (15%) are req 50, so you can loot them now and equip them at 50. Optional: Fineous Darkvire drops Foreman's Head Protector (req 50) if you pass him.",
     "items": [
      {
       "name": "Arbiter's Blade",
@@ -739,13 +719,13 @@
       "kind": "bis"
      },
      {
-      "name": "Graverot Cape",
-      "slot": "Back",
+      "name": "Carapace of Anub'shiah",
+      "slot": "Chest",
       "kind": "bis"
      },
      {
-      "name": "Carapace of Anub'shiah",
-      "slot": "Chest",
+      "name": "Graverot Cape",
+      "slot": "Back",
       "kind": "bis"
      },
      {
@@ -756,10 +736,23 @@
     ]
    },
    {
-    "title": "Alcaz Prison: The Questioner and Blazeroar",
-    "zone": "Alcaz Prison (Alcaz Island, Dustwallow Marsh)",
+    "title": "Sunken Temple: The Temple of Atal'Hakkar",
+    "zone": "Swamp of Sorrows / Sunken Temple",
+    "type": "quest",
+    "do": "While you are still in the Eastern Kingdoms, fly to Stonard and pick up the Horde quest The Temple of Atal'Hakkar (in Classic it comes from Fel'Zerul; unconfirmed for Forever). Complete it in the Sunken Temple and turn it in to collect Guardian Talisman.",
+    "items": [
+     {
+      "name": "Guardian Talisman",
+      "slot": "Trinket 1",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
+    "title": "Alcaz Prison: The Questioner",
+    "zone": "Alcaz Prison (Dustwallow Marsh)",
     "type": "dungeon",
-    "do": "Fly to Brackenwall Village. Pick up the Horde quests from Sergeant Ulka on Alcaz Island; the prerequisite 'The Missing Kor'kron' comes from Eitrigg in Orgrimmar. The entrance is on the island (check Wowhead for the exact spot). The Questioner drops the Stamp (36%) and the Girdle (30%, req 48), which fills Waist until the Waistguard is craftable. Blazeroar's Snack Pouch (req 50) is a stopgap trinket if the Stamp won't drop. Unconfirmed: Mark of Captivity from Slavering Hounds; it is BoE, so you can also check the AH.",
+    "do": "Return to Kalimdor and fly to Brackenwall Village. Alcaz Island lies off the coast near Theramore, so watch for Alliance guards on the way. The Questioner drops Fingerbreaker Stamp (req 48, 36%). Optional: Girdle of Extracted Answers (req 48) also drops from The Questioner and covers waist until you can craft the Waistguard. Optional: Blazeroar drops Zarla's Snack Pouch (req 50). Mark of Captivity may drop here, but the boss is unconfirmed.",
     "items": [
      {
       "name": "Fingerbreaker Stamp",
@@ -787,7 +780,7 @@
     "title": "Maraudon: Princess Theradras",
     "zone": "Maraudon (Desolace)",
     "type": "dungeon",
-    "do": "Fly to Shadowprey Village and run Maraudon through to Princess Theradras for the leggings (19.6%, req 49). Can be done before BRD if you are under 48.",
+    "do": "Fly to Shadowprey Village and clear to Princess Theradras, the final boss, for Elemental Rockridge Leggings (req 49, about 20% drop). Do this at 49 or later so you can equip the leggings at once.",
     "items": [
      {
       "name": "Elemental Rockridge Leggings",
@@ -797,10 +790,10 @@
     ]
    },
    {
-    "title": "Gor'mak plans and craft session",
+    "title": "Craft session: Warder's set at Gor'mak",
     "zone": "The Barrens (Crossroads west gate)",
     "type": "craft",
-    "do": "Once you have the reputation (sheet says 90 MF and DSL Honored, unconfirmed), buy the Sabatons (BS 240, req 47) and Waistguard (BS 250, req 50) plans from Gor'mak, then craft them together. Warder's Gloves (BS 250, req 50) need a plan that drops (sheet: ZF / ST / BRD bosses, unconfirmed), so keep an eye out on the dungeon runs and craft it here once it drops. Mats not verified.",
+    "do": "With 90 MF and DSL Honored, buy Plans: Warder's Waistguard and Plans: Warder's Sabatons from Gor'mak. Craft the Sabatons (req 47) first, then the Waistguard at BS 250 (req 50). Warder's Gloves (BS 250, req 50) needs plans whose drop source is unconfirmed, so craft the gloves whenever you find them. Mats are unconfirmed, so check the plan tooltips before you farm.",
     "items": [
      {
       "name": "Warder's Sabatons",
@@ -818,52 +811,44 @@
       "kind": "bis"
      }
     ]
-   },
-   {
-    "title": "Sunken Temple: The God Hakkar",
-    "zone": "Sunken Temple (Swamp of Sorrows) / Tanaris",
-    "type": "quest",
-    "do": "Classic chain from Yeh'kinya at Steamwheedle Port, Tanaris (Screecher Spirits > The Prophecy of Mosh'aru > The Ancient Egg > The God Hakkar). Fill the Egg of Hakkar inside Sunken Temple and turn it in to choose Avenguard Helm. The quest is level 53, so this realistically lands at 50-53.",
-    "items": [
-     {
-      "name": "Avenguard Helm",
-      "slot": "Head",
-      "kind": "bis"
-     }
-    ]
-   },
-   {
-    "title": "Later: Blackmaw Hold ring",
-    "zone": "Blackmaw Hold (Azshara)",
-    "type": "quest",
-    "do": "Blackmaw Hold is a level 55-60 dungeon. Get 'Blackmaw Reclamation' from Gatekeeper Rageroar, in Azshara. Leave this until 55+ and keep your current Finger 2 ring until then.",
-    "items": [
-     {
-      "name": "Ouroboros Ring",
-      "slot": "Finger 2",
-      "kind": "bis"
-     }
-    ]
    }
   ],
   "notes": [
-   "Ouroboros Ring is not realistic in this bracket: Blackmaw Hold is level 55-60 and the ring is item level 62. The quest 'Blackmaw Reclamation' is confirmed to exist, but not that it rewards this ring.",
-   "Avenguard Helm comes from a level 53 quest (Classic chain). The Forever chain and its reward are unconfirmed, and it may slip past level 50.",
-   "Mark of Captivity: the Wowhead tooltip shows no drop source, and Slavering Hound (Alcaz trash) is unconfirmed. It is BoE, so the AH is a fallback.",
-   "Warder's Gloves plans: the source is unknown on the wiki, and the sheet's ZF/ST/BRD drop is unconfirmed. Gor'mak's rep costs for the Sabatons and Waistguard plans are also unconfirmed.",
-   "Anub'shiah is a random Ring of Law spawn, so the cape and chest may take several BRD runs.",
-   "Thrall's Resolve (alt) is left out: in Classic it comes from the level 59 BRD quest 'The Princess Saved?', which is out of bracket."
+   "Wowhead tooltips list Graverot Cape, Carapace of Anub'shiah, Warder's Gloves, Warder's Waistguard and Foreman's Head Protector as req 50, so you can only equip them at the end of the bracket.",
+   "Anub'shiah is a random Ring of Law challenger, so the cape and chest may take several BRD runs.",
+   "Mark of Captivity (BoE, req 47): no Wowhead drop source is listed. If it doesn't drop in Alcaz Prison, buy it on the AH.",
+   "Plans: Warder's Gloves: Metaforge lists the plan at BS 250, but no source for the plan was found. If you can't find them, keep Warder's Gauntlet.",
+   "Sheet says Alcaz Prison for Girdle of Extracted Answers and Zarla's Snack Pouch. Wowhead names the bosses: The Questioner and Blazeroar.",
+   "The Forever quest giver for The Temple of Atal'Hakkar is unconfirmed. Fel'Zerul in Stonard is the Classic giver."
   ]
  },
  "55": {
   "level": 55,
-  "summary": "The weapon can't come first: Mastersmith's Hammer needs level 55 and drops in Upper Blackrock Spire, so keep Arbiter's Blade until then. At 54, run Dire Maul East, then go to Blackrock Mountain for BRD and finish with UBRS at 55. The Shaper's Terrace legs are a level 58+ job.",
+  "summary": "Run Blackrock Depths at 54 for Naglering, then Dire Maul East for chest and ring, then Upper Blackrock Spire at 55 for the Hammer and Gyth's Skull. The weapon comes last because it requires level 55. Blackmaw Hold and Stratholme alternatives are optional extras at the end.",
   "steps": [
+   {
+    "title": "Blackrock Depths: Golem Lord Argelmach",
+    "zone": "Blackrock Depths",
+    "type": "dungeon",
+    "do": "At level 54, fly to Kargath (Badlands) and run BRD to Golem Lord Argelmach in the Manufactory for Naglering (req 54, ~20%). Optional: Magmus in the Grim Guzzler area drops Golem Skull Helm (req 51), which can cover Head until you get Gyth's Skull.",
+    "items": [
+     {
+      "name": "Naglering",
+      "slot": "Finger 2",
+      "kind": "bis"
+     },
+     {
+      "name": "Golem Skull Helm",
+      "slot": "Head",
+      "kind": "alt"
+     }
+    ]
+   },
    {
     "title": "Dire Maul East: Alzzin the Wildshaper",
     "zone": "Dire Maul (Feralas)",
     "type": "dungeon",
-    "do": "At 54, fly to Camp Mojache and farm Alzzin, the last boss of the East wing. Both drops need level 54 and are about a 16-18% chance each, so expect several runs.",
+    "do": "Fly to Camp Mojache in Feralas and clear Dire Maul East to Alzzin the Wildshaper. He drops both Energized Chestplate and Ring of Demonic Potency (both req 54, ~16-18% each), so expect to farm him several times.",
     "items": [
      {
       "name": "Energized Chestplate",
@@ -878,38 +863,10 @@
     ]
    },
    {
-    "title": "Blackrock Depths: Argelmach, Angerforge, Magmus, Emperor",
-    "zone": "Blackrock Depths (Blackrock Mountain)",
+    "title": "Upper Blackrock Spire: Goraluk, Gyth and Rend",
+    "zone": "Upper Blackrock Spire",
     "type": "dungeon",
-    "do": "Fly to Kargath or Flame Crest and do a full BRD run. Naglering (Golem Lord Argelmach, 20%, level 54) is the target. Also take these alts from bosses on the same path: Golem Skull Helm (Magmus, level 51) covers head until Gyth's Skull at 55, plus Force of Will (Angerforge) and The Emperor's New Cape (Emperor), both level 55.",
-    "items": [
-     {
-      "name": "Naglering",
-      "slot": "Finger 2",
-      "kind": "bis"
-     },
-     {
-      "name": "Golem Skull Helm",
-      "slot": "Head",
-      "kind": "alt"
-     },
-     {
-      "name": "Force of Will",
-      "slot": "Trinket 1",
-      "kind": "alt"
-     },
-     {
-      "name": "The Emperor's New Cape",
-      "slot": "Back",
-      "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Upper Blackrock Spire: Goraluk, Gyth, Rend",
-    "zone": "Upper Blackrock Spire (Blackrock Mountain)",
-    "type": "dungeon",
-    "do": "At 55, from the same mountain, run UBRS with a 10-player raid. Goraluk Anvilcrack drops the hammer (about 18%), Gyth drops the helm (about 16%), and both need level 55. Spaulders of Valor drops from Rend in the same run and is an extra shoulder option.",
+    "do": "At level 55, run UBRS. Goraluk Anvilcrack drops Mastersmith's Hammer (req 55, ~18%), and Gyth drops Gyth's Skull (req 55, ~16%). Optional: Warchief Rend Blackhand, a few rooms on in the same run, drops Spaulders of Valor. Only take them if your Warder's Pauldrons haven't been crafted yet.",
     "items": [
      {
       "name": "Mastersmith's Hammer",
@@ -929,61 +886,96 @@
     ]
    },
    {
-    "title": "Later: Essence of Seeping Slimes (Shaper's Terrace)",
-    "zone": "Undercity / Shaper's Terrace (Un'Goro Crater)",
-    "type": "quest",
-    "do": "Pick up Essence of Seeping Slimes from Chemist Fuely in the Apothecarium, Undercity. Seeping Slimes around the Achromatic Crystal in the tar pits drop Seeping Slime Essence. The dungeon is level 58-60 and its entrance is in northern Un'Goro Crater (exact entrance unconfirmed), so do this in the next bracket. Keep Elemental Rockridge Leggings until then.",
+    "title": "Blackrock Depths revisit at 55 (alternatives)",
+    "zone": "Blackrock Depths",
+    "type": "dungeon",
+    "do": "Optional: if you are back in BRD at 55, General Angerforge drops Force of Will and Emperor Dagran Thaurissan drops The Emperor's New Cape (both req 55). These are only worth it on a run you are already doing. Your carried-over Guardian Talisman and Graverot Cape remain BiS.",
     "items": [
      {
-      "name": "Reinforced Muck Protectors",
-      "slot": "Legs",
-      "kind": "bis"
+      "name": "Force of Will",
+      "slot": "Trinket 1",
+      "kind": "alt"
+     },
+     {
+      "name": "The Emperor's New Cape",
+      "slot": "Back",
+      "kind": "alt"
+     }
+    ]
+   },
+   {
+    "title": "Later: Blackmaw Hold and Stratholme extras",
+    "zone": "Blackmaw Hold (Azshara) / Stratholme",
+    "type": "dungeon",
+    "do": "Optional: Withermaw in Blackmaw Hold (north Azshara, behind the furbolg gate, level 55-60) drops Bloodfur Bulwark (req 55, ~27%). It needs its own new shield spike, because a spike can't be moved from Putridus Wall. Optional: Skul, a rare in Stratholme, drops Skul's Cold Embrace. Skip it if you already have the Energized Chestplate.",
+    "items": [
+     {
+      "name": "Bloodfur Bulwark",
+      "slot": "Off hand",
+      "kind": "alt"
+     },
+     {
+      "name": "Skul's Cold Embrace",
+      "slot": "Chest",
+      "kind": "alt"
      }
     ]
    }
   ],
   "notes": [
-   "Weapon first isn't realistic: Mastersmith's Hammer requires level 55 and drops in UBRS (Goraluk Anvilcrack), not LBRS. Gyth's Skull also requires 55 and is UBRS.",
-   "Unconfirmed: whether Forever still needs the Seal of Ascension key to enter UBRS. Check this before planning the run.",
-   "Reinforced Muck Protectors: Wowhead's tooltip lists no source or level requirement. The quest giver is confirmed (warcrafttavern), but the reward isn't. Shaper's Terrace is level 58-60, so this item is out of reach in this bracket.",
-   "The sheet's stats for Energized Chestplate leave out its +12 Intellect.",
-   "Optional, not on this route: Skul's Cold Embrace (Skul, a rare in Stratholme, level 55) and Bloodfur Bulwark (Withermaw, Blackmaw Hold in Azshara, about 27%, level 55). Both are alts for slots where the BiS is already covered."
+   "Weapon-first isn't realistic in this bracket. Mastersmith's Hammer and Gyth's Skull both require level 55, so UBRS comes at the end. Keep Arbiter's Blade until then.",
+   "Unconfirmed: whether UBRS in Forever still needs the Seal of Ascension key, as it did in Classic. Check before you form a group.",
+   "Wowhead confirms Naglering still has 'When struck in combat inflicts 3 Arcane damage to the attacker', which is a thorns effect.",
+   "Every source and level requirement in the sheet matched its Wowhead Forever tooltip. No contradictions found.",
+   "Unconfirmed: Blackmaw Hold's boss order and Withermaw's location inside it. The entrance is from web guides, not Wowhead.",
+   "Bloodfur Bulwark (2057 armor, 38 block, +15 block value) has better base stats than Putridus Wall, but it's listed as the alternative. Compare them in-game before you spend a spike on it."
   ]
  },
  "60": {
   "level": 60,
-  "summary": "Buy a stopgap caster mace and the BoE shoulders on the AH, craft the three Enriched Thorium pieces once rep and BS 300 are in, then run DM North tribute and UBRS. Finish at 60 with the Hyjal neck quest and a Tarnished Undermine Real spend at Pix Xizzix. Sageblade is a later goal.",
+  "summary": "Shop the Orgrimmar AH for the BoE weapon and shoulders first, then craft the Enriched Thorium set at Honored DSL, run UBRS and a Dire Maul North tribute at 58, do the Mount Hyjal neck quest, and finish at 60 with the Booty Bay Undermine vendor.",
   "steps": [
    {
-    "title": "AH: stopgap weapon and shoulders",
-    "zone": "Orgrimmar Auction House",
+    "title": "Orgrimmar AH: Sageblade and Stockade Pauldrons",
+    "zone": "Orgrimmar",
     "type": "auction",
-    "do": "Optional: Sageblade is not realistic yet, so if the price is fair, Hand of Edward the Odd (BoE, req 57) can cover the weapon slot until then. In the same AH visit, buy Stockade Pauldrons (BoE world drop, req 50).",
+    "do": "Buy Sageblade (BoE, requires 59); the plans drop only from raid bosses, so the AH is the realistic route. Buy Stockade Pauldrons (BoE world drop, requires 50) now so they fill shoulders for the whole bracket. Optional: Hand of Edward the Odd (BoE, requires 57) as a stopgap if Sageblade is not listed or until you hit 59.",
     "items": [
      {
-      "name": "Hand of Edward the Odd",
+      "name": "Sageblade",
       "slot": "Main hand",
-      "kind": "alt"
+      "kind": "bis"
      },
      {
       "name": "Stockade Pauldrons",
       "slot": "Shoulders",
       "kind": "bis"
+     },
+     {
+      "name": "Hand of Edward the Odd",
+      "slot": "Main hand",
+      "kind": "alt"
      }
     ]
    },
    {
-    "title": "Reach 120 MF and DSL Honored",
-    "zone": "Crossroads, The Barrens",
-    "type": "world",
-    "do": "The Enriched Thorium plans from Gor'mak (outside the Crossroads west gate) need 120 Merchant's Favor and Honored with Durotar Supply and Logistics. Push both to those levels while you level 55-58, and get Blacksmithing to 300.",
-    "items": []
+    "title": "Shaper's Terrace: Muck Protectors quest",
+    "zone": "Shaper's Terrace",
+    "type": "dungeon",
+    "do": "Optional: do the Horde quest here for Reinforced Muck Protectors. They fill legs until the Enriched Thorium Leggings (requires 58, DSL Honored) are craftable. The quest name and giver are unconfirmed.",
+    "items": [
+     {
+      "name": "Reinforced Muck Protectors",
+      "slot": "Legs",
+      "kind": "alt"
+     }
+    ]
    },
    {
-    "title": "Craft session: Enriched Thorium set",
-    "zone": "Crossroads, The Barrens",
+    "title": "Gor'mak craft session: Enriched Thorium set",
+    "zone": "The Barrens (Crossroads, west gate)",
     "type": "craft",
-    "do": "Buy the three Enriched Thorium plans from Gor'mak and craft them at BS 300. They require level 57-58 and are BoP. Thorium-based materials are unconfirmed, so check each plan before farming. If your Defense is already capped, you can also craft Depleted Thorium Sabatons here (req 60).",
+    "do": "Reach DSL Honored and 120 Merchant's Favor, then buy the Enriched Thorium Helm, Breastplate and Leggings plans from Gor'mak and craft all three at BS 300 (they require level 57-58). Mats are unverified; expect mostly Thorium/Enriched Thorium bars, so stock up beforehand.",
     "items": [
      {
       "name": "Enriched Thorium Helm",
@@ -999,24 +991,6 @@
       "name": "Enriched Thorium Leggings",
       "slot": "Legs",
       "kind": "bis"
-     },
-     {
-      "name": "Depleted Thorium Sabatons",
-      "slot": "Feet",
-      "kind": "alt"
-     }
-    ]
-   },
-   {
-    "title": "Dire Maul North: tribute run",
-    "zone": "Dire Maul (Feralas)",
-    "type": "dungeon",
-    "do": "Do a tribute run (leave King Gordok's guards alive and kill the king), then loot Mizzle the Crafty's tribute chest for Redoubt Cloak (BoP, req 58). Fly to Camp Mojache in Feralas.",
-    "items": [
-     {
-      "name": "Redoubt Cloak",
-      "slot": "Back",
-      "kind": "bis"
      }
     ]
    },
@@ -1024,7 +998,7 @@
     "title": "UBRS: General Drakkisath",
     "zone": "Upper Blackrock Spire",
     "type": "dungeon",
-    "do": "Kill General Drakkisath for Draconian Deflector (BoP, req 58, about 21% drop chance, so expect repeat runs). Then attach a shield spike you craft yourself to get the thorns effect.",
+    "do": "At 58+, clear to General Drakkisath for Draconian Deflector (BoP, requires 58, about 21% drop, so plan on repeat runs). Put a new shield spike on it; spikes cannot be moved from your old Putridus Wall.",
     "items": [
      {
       "name": "Draconian Deflector + spike",
@@ -1034,10 +1008,23 @@
     ]
    },
    {
+    "title": "Dire Maul North: tribute run",
+    "zone": "Dire Maul (Feralas)",
+    "type": "dungeon",
+    "do": "Do a tribute run (leave the guards alive, kill King Gordok), then loot Mizzle the Crafty's tribute chest for Redoubt Cloak (BoP, requires 58). It is not a guaranteed pick, so repeat if it does not appear.",
+    "items": [
+     {
+      "name": "Redoubt Cloak",
+      "slot": "Back",
+      "kind": "bis"
+     }
+    ]
+   },
+   {
     "title": "Mount Hyjal: Work Well Done",
     "zone": "Mount Hyjal",
     "type": "quest",
-    "do": "Complete the quest 'Work Well Done' for Horn of Ve'han (BoP neck). The quest giver, the prerequisite chain and the level requirement are all unconfirmed. Check Wowhead before you travel.",
+    "do": "Complete the quest Work Well Done for Horn of Ve'han. The quest giver, the chain leading into it and how you reach Hyjal are unconfirmed, so check the quest in game before travelling.",
     "items": [
      {
       "name": "Horn of Ve'han",
@@ -1047,10 +1034,10 @@
     ]
    },
    {
-    "title": "Booty Bay: Pix Xizzix at level 60",
-    "zone": "Booty Bay, Stranglethorn Vale",
+    "title": "Booty Bay: Pix Xizzix at 60",
+    "zone": "Stranglethorn Vale (Booty Bay)",
     "type": "vendor",
-    "do": "At level 60, spend about 250 Tarnished Undermine Real at Pix Xizzix: 125 on Defender's Grip Stabilizer, 75 on Ring of Awareness and about 50 on Libram of Law. Booty Bay is neutral; get there from Grom'gol by flight path or on foot.",
+    "do": "At level 60, spend Tarnished Undermine Reals at Pix Xizzix in Booty Bay (neutral town): Defender's Grip Stabilizer (125), Ring of Awareness (75), Libram of Law (~50), about 250 in all. All three require level 60, so save currency from your 55-59 dungeon runs.",
     "items": [
      {
       "name": "Defender's Grip Stabilizer",
@@ -1070,15 +1057,15 @@
     ]
    },
    {
-    "title": "Later: Sageblade (+ optional extras)",
+    "title": "Later / optional alternatives",
     "zone": "Various",
-    "type": "craft",
-    "do": "Sageblade (BS 300, req 59, BoE) depends on plans whose Forever source is unconfirmed. In Classic they came from endgame elite mobs. Craft it, or buy it on the AH, once the plans turn up. Evergreen Shield (BS 300 craft, req 60) can hold the off-hand slot while Drakkisath fails to drop. Frostwolf Insignia Rank 6 needs Frostwolf rep from Alterac Valley.",
+    "type": "world",
+    "do": "Optional: Depleted Thorium Sabatons and Evergreen Shield are BS 300 BoE crafts that require level 60 (plan sources unconfirmed). Evergreen Shield has no Defense. Optional: Frostwolf Insignia Rank 6 needs high Frostwolf rep from Alterac Valley. Optional: Ouroboros Ring from a Blackmaw Hold quest (reward unconfirmed).",
     "items": [
      {
-      "name": "Sageblade",
-      "slot": "Main hand",
-      "kind": "bis"
+      "name": "Depleted Thorium Sabatons",
+      "slot": "Feet",
+      "kind": "alt"
      },
      {
       "name": "Evergreen Shield",
@@ -1089,17 +1076,23 @@
       "name": "Frostwolf Insignia Rank 6",
       "slot": "Trinket 2",
       "kind": "alt"
+     },
+     {
+      "name": "Ouroboros Ring",
+      "slot": "Finger 2",
+      "kind": "alt"
      }
     ]
    }
   ],
   "notes": [
-   "Sageblade: Wowhead Forever shows req 59 and Binds when equipped, not BoP. The source of its plans in Forever is unconfirmed, and in Classic they were raid-tier. It is probably not obtainable while levelling.",
-   "Ring of Awareness, Defender's Grip Stabilizer and Libram of Law all require level 60, so they only unlock at the very end of this bracket. Unconfirmed: how to earn Tarnished Undermine Real in Forever. One guide mentions a weekly Dire Maul quest from Pix Xizzix.",
-   "Enriched Thorium plan costs and rep requirements (120 MF, DSL Honored) come from the sheet. I couldn't check them against Wowhead, and the crafting materials are unconfirmed.",
-   "Horn of Ve'han: the tooltip confirms the item, but not the quest 'Work Well Done', its NPC or its location.",
-   "Stockade Pauldrons: the tooltip shows +12 SP and req 50, which settles the 'per one source' doubt in the sheet. The tooltip lists no drop source.",
-   "Draconian Deflector: the tooltip confirms Drakkisath at 21.28%. UBRS access requirements are not covered here."
+   "Sageblade: Wowhead confirms BoE, requires 59. Crafting it needs the Master Swordsmith specialization. Classic data puts the plans on raid bosses (Azuregos, Onyxia or Ragnaros) with mats of 12 Arcanite Bar, 2 Nexus Crystal, 2 Flask of Supreme Power and 4 Enchanted Leather. None of this is confirmed for Forever.",
+   "Wowhead lists the Sageblade at 39-73 damage, but Metaforge's Forever page says 58-109. Check in game.",
+   "Unconfirmed: the quest giver and access route for Work Well Done (Mount Hyjal); the Shaper's Terrace quest for the Muck Protectors; how Tarnished Undermine Reals are earned in Forever. In Season of Discovery they came from level 55+ dungeon bosses once a day.",
+   "The Defender's Grip Stabilizer, Ring of Awareness, Libram of Law, Evergreen Shield and Depleted Thorium Sabatons all require level 60, so they only arrive at the very end of the bracket.",
+   "The sheet's 'spike' for Draconian Deflector is unnamed. Use the best spike you can make or buy (Thorium Shield Spike in Classic, unconfirmed in Forever).",
+   "Wowhead shows Draconian Deflector also has +8 Fire Resistance, which is not in the sheet. Ouroboros Ring has no Defense and no level requirement.",
+   "Enriched Thorium plan costs (120 MF, DSL Honored) come from the sheet. Wowhead tooltips do not show vendor data, and the item pages were blocked (403)."
   ]
  }
 }

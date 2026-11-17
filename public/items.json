@@ -19,11 +19,6 @@
   "icon": "inv_belt_21",
   "quality": 3
  },
- "Avenguard Helm": {
-  "id": 10749,
-  "icon": "inv_helmet_22",
-  "quality": 3
- },
  "Bandsaw Wristbands": {
   "id": 273293,
   "icon": "inv_bracer_03",
@@ -509,11 +504,6 @@
   "icon": "inv_misc_cape_20",
   "quality": 3
  },
- "The Green Tower": {
-  "id": 1204,
-  "icon": "inv_shield_06",
-  "quality": 4
- },
  "Thorium Belt": {
   "id": 12406,
   "icon": "inv_belt_30",
@@ -528,11 +518,6 @@
   "id": 276889,
   "icon": "inv_shield_14",
   "quality": 2
- },
- "Thrall's Resolve": {
-  "id": 12544,
-  "icon": "inv_jewelry_ring_05",
-  "quality": 3
  },
  "Undead Knight's Bracers": {
   "id": 251965,
@@ -587,11 +572,6 @@
  "Wingblade": {
   "id": 6504,
   "icon": "inv_sword_16",
-  "quality": 3
- },
- "Worn Turtle Shell Shield": {
-  "id": 6447,
-  "icon": "inv_shield_21",
   "quality": 3
  },
  "Zarla's Snack Pouch": {
