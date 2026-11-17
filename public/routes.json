@@ -149,13 +149,13 @@
     ]
    },
    {
-    "title": "Level 20: legs, chest and shield spike",
+    "title": "Auction House: legs, chest and shield spike",
     "zone": "Any capital (AH)",
-    "type": "craft",
-    "do": "Crusader's Chain Leggings (BS 95, needs level 20) comes from dropped plans, and the source is unconfirmed. Watch the AH for the plans. Optional: Defender Leggings of Magic (AH, level 18) fills legs until then. Buy Gloomshroud Armor on the AH, since the SFK trash drop rate is negligible. It needs level 20. Optional: Crusader's Chain Shirt (BS 80, dropped plans) is a chest placeholder. Make or buy an Iron Shield Spike and put it only on Seedcloud Buckler.",
+    "type": "auction",
+    "do": "Buy Defender Leggings from the AH (BoE, level 18). Pick a spell power or Stamina suffix. Buy Gloomshroud Armor on the AH too, since the SFK trash drop rate is negligible. It needs level 20. Optional: Crusader's Chain Leggings are better, but their plans are BoP and a very rare drop, so only craft them if the plans drop for you. Optional: Crusader's Chain Shirt (BS 80, dropped plans) is a chest placeholder. Make or buy an Iron Shield Spike and put it only on Seedcloud Buckler.",
     "items": [
      {
-      "name": "Crusader's Chain Leggings",
+      "name": "Defender Leggings (+SP or +Sta suffix)",
       "slot": "Legs",
       "kind": "bis"
      },
@@ -165,7 +165,7 @@
       "kind": "bis"
      },
      {
-      "name": "Defender Leggings of Magic",
+      "name": "Crusader's Chain Leggings",
       "slot": "Legs",
       "kind": "alt"
      },
@@ -191,9 +191,9 @@
    }
   ],
   "notes": [
-   "Four BiS pieces need level 20: Crusader's Silvered Chain Helm, Crusader's Chain Leggings, Gloomshroud Armor and the Friend of the Library quest (quest level 20). Seedcloud Buckler needs 19, and the Scepter needs 17.",
+   "Three BiS pieces need level 20: Crusader's Silvered Chain Helm, Gloomshroud Armor and the Friend of the Library quest (quest level 20). Seedcloud Buckler needs 19, and the Scepter needs 17.",
+   "Unconfirmed: where the plans for Crusader's Chain Shirt, Rough Bronze Shoulders and Iron Shield Spike come from. Plans: Crusader's Chain Leggings are BoP and a very rare drop. Crusader's Silvered Chain Leggings (Gor'mak, BS 125) are the legs from level 25.",
    "Iron Shield Spike needs BS 150, which you probably won't reach by 20 while you're making 45-95 crafts. Buy one on the AH, or add it later. Spikes can't be moved, so only put one on Seedcloud Buckler.",
-   "Unconfirmed: where the plans for Crusader's Chain Leggings, Crusader's Chain Shirt, Rough Bronze Shoulders and Iron Shield Spike come from. Gor'mak's list shows 'Crusader's Silvered Chain Leggings' (BS 125), not 'Crusader's Chain Leggings' (BS 95). Check which item the sheet means.",
    "Unconfirmed: the Wowhead tooltips don't show the quest rewards for Slain Baron's Signet (Unending Torment) or Spare Part Bindings (Light's Justice). The guides confirm the quests but not the item rewards.",
    "Unconfirmed: the quest giver for Chol'aruk the Ravener, and whether Leaders of the Fang still rewards Wingblade in Forever.",
    "Gloomshroud Armor's ~0.02% SFK trash drop isn't on Wowhead. Treat it as AH only."

@@ -119,7 +119,7 @@
   "icon": "inv_pants_02",
   "quality": 3
  },
- "Defender Leggings of Magic": {
+ "Defender Leggings": {
   "id": 6578,
   "icon": "inv_pants_03",
   "quality": 2
@@ -307,11 +307,6 @@
  "Knucklebone Ring": {
   "id": 274614,
   "icon": "inv_misc_bone_05",
-  "quality": 3
- },
- "Libram of Invocation": {
-  "id": 249442,
-  "icon": "inv_relics_libramofhope",
   "quality": 3
  },
  "Libram of Law": {
