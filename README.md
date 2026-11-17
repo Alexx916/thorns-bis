@@ -13,6 +13,11 @@ The sheet ID and tab are set in `src/config.js`. The parser expects these column
 `Level, Slot, BiS, BiS stats, BiS source, Binding / BS skill, Thorns (BiS), Best alternative, Alt source, Confidence, Got`.
 Any non-numeric text below the data rows in column A shows up as notes.
 
+## Route plans
+`public/routes.json` holds a route for each level bracket: steps, where to go, and which items each step gives. AI agents wrote them, one per bracket, and they were checked against Wowhead's drop data. A step ticks off once every BiS item in it is marked Got. Alternative items are always optional.
+
+The routes are static: if you change an item in the sheet, its route needs updating too.
+
 ## Local dev
 ```sh
 npm install

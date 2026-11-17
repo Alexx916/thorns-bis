@@ -1,20 +1,21 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import Paperdoll from './Paperdoll.jsx';
 import { loadSheet } from './data.js';
 import { LEVELS, SHEET_VIEW_URL } from './config.js';
 import { loadItems, findItem, iconUrl, itemUrl, loadTooltip } from './wowhead.js';
 import { isGeneric, genericListUrl } from './itemName.js';
 import { useStored } from './storage.js';
+import RoutePlan from './RoutePlan.jsx';
 
 // What a slot currently shows, after applying the BiS/Alt toggle and Got state.
-function buildViews(rows, level, items, altChoice, gotMap) {
+function buildViews(rows, level, items, altChoice, isGot) {
   const views = {};
   for (const [slot, row] of Object.entries(rows || {})) {
     const hasAlt = Boolean(row.bis && row.alt);
     const useAlt = hasAlt && Boolean(altChoice[`${level}|${slot}`]);
     const name = useAlt ? row.alt : row.bis;
     const generic = isGeneric(name);
-    const got = !generic && name ? (gotMap[name] ?? (!useAlt && row.got)) : false;
+    const got = !generic && name ? isGot(name) : false;
     views[slot] = { row, name, useAlt, hasAlt, generic, got, wh: generic ? null : findItem(items, name) };
   }
   return views;
@@ -84,11 +85,25 @@ export default function App() {
     loadItems().then(setItems);
   }, []);
 
+  const [routes, setRoutes] = useState(null);
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}routes.json`).then((r) => (r.ok ? r.json() : null)).then(setRoutes).catch(() => setRoutes(null));
+  }, []);
+
+  // Got = your browser's choice if you've clicked it, otherwise the sheet's Got column.
+  const sheetGot = useMemo(() => {
+    const set = new Set();
+    for (const slots of Object.values(data?.byLevel || {}))
+      for (const row of Object.values(slots)) if (row.got && row.bis) set.add(row.bis);
+    return set;
+  }, [data]);
+  const isGot = useCallback((name) => gotMap[name] ?? sheetGot.has(name), [gotMap, sheetGot]);
+
   const level = LEVELS[idx] ?? LEVELS[0];
-  const views = useMemo(() => buildViews(data?.byLevel[level], level, items, altChoice, gotMap), [data, level, items, altChoice, gotMap]);
+  const views = useMemo(() => buildViews(data?.byLevel[level], level, items, altChoice, isGot), [data, level, items, altChoice, isGot]);
   const prevViews = useMemo(
-    () => (idx > 0 ? buildViews(data?.byLevel[LEVELS[idx - 1]], LEVELS[idx - 1], items, altChoice, gotMap) : null),
-    [data, idx, items, altChoice, gotMap],
+    () => (idx > 0 ? buildViews(data?.byLevel[LEVELS[idx - 1]], LEVELS[idx - 1], items, altChoice, isGot) : null),
+    [data, idx, items, altChoice, isGot],
   );
 
   const toggleAlt = (slot, on) => setAltChoice((m) => {
@@ -96,10 +111,7 @@ export default function App() {
     if (on) next[`${level}|${slot}`] = true; else delete next[`${level}|${slot}`];
     return next;
   });
-  const toggleGot = (name) => setGotMap((m) => {
-    const current = Object.values(views).find((v) => v.name === name)?.got ?? false;
-    return { ...m, [name]: !current };
-  });
+  const toggleGot = (name) => setGotMap((m) => ({ ...m, [name]: !isGot(name) }));
 
   return (
     <div className="app">
@@ -130,6 +142,12 @@ export default function App() {
             onSelect={setSelected} onToggleAlt={toggleAlt} onToggleGot={toggleGot} />
           <Details view={views[selected]} slot={selected} level={level} />
         </main>
+      )}
+
+      {data && (
+        <RoutePlan level={level} route={routes?.[level]} routesLoaded={routes !== null}
+          byLevel={data.byLevel} items={items} isGot={isGot} onToggleGot={toggleGot}
+          onSelectSlot={setSelected} onJumpLevel={(l) => setIdx(LEVELS.indexOf(l))} />
       )}
 
       {data?.notes?.length > 0 && (
